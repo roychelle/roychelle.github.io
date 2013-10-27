@@ -1,14 +1,14 @@
-h1,h2,h3{
+h1,h2,h3 {
 	font-family: Helvetica, Arial;
-		color: red
+	color: red
 	
 		}
-p{
+p {
 	font-family: Helvetica, Arial;
 	color: gray;
 }
 
-ul{
+ul {
 	font-family: Helvetica, Arial;
 	color: black;
 }
