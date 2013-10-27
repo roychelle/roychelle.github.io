@@ -1,5 +1,5 @@
 body {
-	background-color: #E7E7E7}
+	background-color: #E7E7E7;}
 	
 h1,h2,h3 {
 	font-family: Helvetica, Arial;
@@ -11,3 +11,5 @@ p {
 ul {
 	font-family: Helvetica, Arial;
 	color: black;}
+div {
+	background-color: white;}
