@@ -18,6 +18,13 @@ div {
         border: 2px black solid;
         border-radius: 20px;
         padding: 5px;}
+
+br {
+        font-family: Helvetica, Arial;
+        font-style: Bold;
+        font-size: 75%
+        font-color:#000;
+}
         
 #intro { 
         font-family: Helvetica;
