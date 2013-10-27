@@ -11,7 +11,8 @@ p {
 
 ul {
 	font-family: Helvetica, Arial;
-	color: black;}
+	color: black;
+	padding:5px;}
 div {
 	background-color: white;
 	border: 2px black solid;
