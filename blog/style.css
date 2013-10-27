@@ -16,4 +16,5 @@ ul {
 div {
 	background-color: white;
 	border: 2px black solid;
+	border-radius: 20px;
 	padding: 5px;}
