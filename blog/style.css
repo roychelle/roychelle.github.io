@@ -20,5 +20,6 @@ div {
 	padding: 5px;}
 	
 #intro { 
-	font-family: Helvetica Bold;
+	font-family: Helvetica;
+	font-style: Bold;
 	color: red;}
