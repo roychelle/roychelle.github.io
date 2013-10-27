@@ -21,14 +21,14 @@ div {
 
 br {
         font-family: Helvetica, Arial;
-        font-style: bold;
+        font-weight: bold;
         font-size: 75%;
         color:#000;}
 
         
 #intro { 
         font-family: Helvetica;
-        font-style: bold;
+        font-weight: bold;
         color: #000;}
         
 .highlights { 
