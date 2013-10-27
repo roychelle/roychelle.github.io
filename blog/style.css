@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
         background-color: #E7E7E7;
         padding: 10px;}
         
@@ -26,3 +27,32 @@ div {
         
 .highlights { 
         font-style: Italic;}
+=======
+	background-color: #E7E7E7;
+	padding: 10px;}
+	
+h1,h2,h3 {
+	font-family: Helvetica, Arial;
+	color: red;}
+p {
+	font-family: Helvetica, Arial;
+	color: gray;
+	padding 5px}
+
+ul {
+	font-family: Helvetica, Arial;
+	color: black;}
+div {
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 20px;
+	padding: 5px;}
+	
+#intro { 
+	font-family: Helvetica;
+	font-style: Bold;
+	color: #000;}
+	
+.highlights { 
+	font-style: Italic;}
+>>>>>>> cdeae8dd0cf00f54eb6f54852acf0964f9b6dd3a
