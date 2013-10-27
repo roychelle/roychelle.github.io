@@ -8,7 +8,7 @@ h1,h2,h3 {
 p {
         font-family: Helvetica, Arial;
         color: gray;
-        padding 5px}
+        padding:5px}
 
 ul {
         font-family: Helvetica, Arial;
@@ -21,15 +21,15 @@ div {
 
 br {
         font-family: Helvetica, Arial;
-        font-style: Bold;
-        font-size: 75%
-        font-color:#000;
-}
+        font-style: bold;
+        font-size: 75%;
+        color:#000;}
+
         
 #intro { 
         font-family: Helvetica;
-        font-style: Bold;
+        font-style: bold;
         color: #000;}
         
 .highlights { 
-        font-style: Italic;}
+        font-style: italic;}
