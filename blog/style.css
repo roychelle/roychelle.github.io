@@ -13,5 +13,4 @@ ul {
 	color: black;}
 div {
 	background-color: white;
-	border-width: medium;
-	border-color:black}
+	border: 3px black solid;}
