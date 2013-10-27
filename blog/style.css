@@ -12,4 +12,6 @@ ul {
 	font-family: Helvetica, Arial;
 	color: black;}
 div {
-	background-color: white;}
+	background-color: white;
+	border-width: medium;
+	border-color:black}
