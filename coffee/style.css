@@ -50,12 +50,16 @@ table {
 body {
         padding: 10px;}
 
-h1 {    font-family: Helvetica, Arial;
+h1 {    font-family: Arial;
         font-size: 40px;
         color: white;
-        font-weight: bold;
-        margin: auto;
-        width:12%;}
+        font-weight: bold ;
+        margin: auto ;
+        width:15%;
+        text-align: center;}
+span#beans {
+        letter-spacing:.12em;
+        text-align: center}
         
 h2,h3 {
         font-family: Helvetica, Arial;
@@ -84,8 +88,8 @@ nav {
 }
 section {
         background-color: #472400;
-        width:1000px;
-        height: 80px;}
+        height: 80px;
+        margin:auto;}
 
 .subscript {
         font-family: Helvetica, Arial;
@@ -94,10 +98,8 @@ section {
         color: white;
         bottom:0px;
         position: absolute;
-        bottom:20px;
         margin:auto;
-        width: 33%;
-        height:20px;
+        width: 100%;
         text-align:center;}
 
         
@@ -112,9 +114,16 @@ ul#menu {
         margin: auto;
         width: 33%;}
 
-div#title { border: 0px;
+div#title { 
             border-radius:0px;
-            background-image: url("coffee_beans.jpg");}
+            background-image: url("coffee_beans.jpg");
+            width: 100%;}
+span#dream {
+                font-family: "Brush Script MT";
+                height: 50px;
+                text-decoration: underline white dashed;
+                font-size: 70px;
+                word-spacing: .5em}
 
 
 li {
