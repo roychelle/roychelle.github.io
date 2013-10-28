@@ -68,6 +68,10 @@ div {
         border-radius: 20px;
         padding: 5px;}
 
+br {
+        width: 40px;
+}
+
 .subscript {
         font-family: Helvetica, Arial;
         font-weight: bold;
@@ -93,5 +97,4 @@ div {
 .left {
         float:left;}
 .right {
-        float:right;
-}
+        float:right;}
