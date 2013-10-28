@@ -97,9 +97,9 @@ br {
 .left {
         float:left;
         width: 40%;
-        padding: 10px;}
+        padding: 0px;}
 
 .right {
         float:right;
         width:40%;
-        padding:10px;}
+        padding:0px;}
