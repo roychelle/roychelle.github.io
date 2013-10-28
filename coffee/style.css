@@ -48,12 +48,14 @@ table {
         border-spacing: 0;
 }
 body {
-        background-color: #E7E7E7;
         padding: 10px;}
 
-h1 {
+h1 {    font-family: Helvetica, Arial;
         font-size: 40px;
-}
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        width:12%;}
         
 h2,h3 {
         font-family: Helvetica, Arial;
@@ -66,24 +68,37 @@ p {
 
 ul {
         font-family: Helvetica, Arial;
-        color: black;}
+        color: black;
+        margin}
 div {
         background-color: white;
-        border: 2px black solid;
-        border-radius: 20px;
-        padding: 5px;}
+        padding: 5px;
+        text-align: center;}
 
 br {
-       line-height: 40px;
+       line-height: 10px;
 }
+
+nav {
+        background-color: red;
+}
+section {
+        background-color: #472400;
+        width:1000px;
+        height: 80px;}
 
 .subscript {
         font-family: Helvetica, Arial;
         font-weight: bold;
         font-size: 75%;
-        color:#000;
-        position:absolute;
-        bottom:5px}
+        color: white;
+        bottom:0px;
+        position: absolute;
+        bottom:20px;
+        margin:auto;
+        width: 33%;
+        height:20px;
+        text-align:center;}
 
         
 #intro { 
@@ -92,25 +107,35 @@ br {
         color: #000;}
 
 ul#menu {
-        font-color: white;
-        background-color: red;
-        word-spacing: 45px;
-        margin: 0px auto;
-        font-weight: bold;
-        display: inline;}
+       font-weight: bold;
+        padding:10px;
+        margin: auto;
+        width: 33%;}
+
+div#title { border: 0px;
+            border-radius:0px;
+            background-image: url("coffee_beans.jpg");}
+
+
+li {
+        color: white;
+        display: inline;
+        padding-left:10px;
+        padding-right:10px;}
         
 .highlights { 
         font-style: italic;}
 
 .left {
         float:left;
-        width: 45%;
+        width: 40%;
         height:300px;
-        padding: 0px;}
+        padding: 10px;
+        margin-left: 55px;}
 
 .right {
         float:left;
-        width:45%;
+        width:40%;
         height:300px;
-        padding:0px;
-}
+        padding:10px;
+        margin-left: 40px}
