@@ -69,7 +69,7 @@ div {
         padding: 5px;}
 
 br {
-        width: 40px;
+       line-height: 40px;
 }
 
 .subscript {
@@ -96,5 +96,6 @@ br {
 
 .left {
         float:left;}
+        
 .right {
         float:right;}
