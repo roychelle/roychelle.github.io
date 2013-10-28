@@ -96,10 +96,10 @@ br {
 
 .left {
         float:left;
-        width: 50%;
+        width: 48%;
         padding: 10px;}
 
 .right {
         float:right;
-        width:50%;
+        width:48%;
         padding:10px;}
