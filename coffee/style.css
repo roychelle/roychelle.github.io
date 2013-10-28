@@ -88,14 +88,18 @@ br {
         font-color: white;
         background-color: red;
         word-spacing: 40px;
-        margin: auto;
+        margin: center;
         font-weight: bold;}
         
 .highlights { 
         font-style: italic;}
 
 .left {
-        float:left;}
-        
+        float:left;
+        width: 50%;
+        padding: 10px;}
+
 .right {
-        float:right;}
+        float:right;
+        width:50%;
+        padding:10px;}
