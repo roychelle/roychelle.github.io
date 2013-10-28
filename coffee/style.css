@@ -50,8 +50,12 @@ table {
 body {
         background-color: #E7E7E7;
         padding: 10px;}
+
+h1 {
+        font-size: 40px;
+}
         
-h1,h2,h3 {
+h2,h3 {
         font-family: Helvetica, Arial;
         color: red;}
 p {
@@ -76,7 +80,8 @@ br {
         font-family: Helvetica, Arial;
         font-weight: bold;
         font-size: 75%;
-        color:#000;}
+        color:#000;
+        bottom:0;}
 
         
 #intro { 
@@ -87,7 +92,7 @@ br {
 #menu {
         font-color: white;
         background-color: red;
-        word-spacing: 40px;
+        word-spacing: 45px;
         margin: center;
         font-weight: bold;}
         
@@ -96,7 +101,7 @@ br {
 
 .left {
         float:left;
-        width: 40%;
+        width: 45%;
         padding: 0px;}
 
 .right {
