@@ -97,6 +97,14 @@ br {
         word-spacing: 45px;
         margin: 0px auto;
         font-weight: bold;}
+
+#menu ul {
+        font-color: white;
+        background-color: red;
+        word-spacing: 45px;
+        margin: 0px auto;
+        font-weight: bold;
+        display: inline;}
         
 .highlights { 
         font-style: italic;}
