@@ -57,7 +57,8 @@ h1 {
         
 h2,h3 {
         font-family: Helvetica, Arial;
-        color: red;}
+        color: red;
+        padding:5px;}
 p {
         font-family: Helvetica, Arial;
         color: gray;
@@ -81,7 +82,8 @@ br {
         font-weight: bold;
         font-size: 75%;
         color:#000;
-        bottom:0;}
+        position:absolute;
+        bottom:5px}
 
         
 #intro { 
