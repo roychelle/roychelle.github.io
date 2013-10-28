@@ -95,7 +95,7 @@ br {
         font-color: white;
         background-color: red;
         word-spacing: 45px;
-        margin: center;
+        margin: 0px auto;
         font-weight: bold;}
         
 .highlights { 
@@ -104,11 +104,12 @@ br {
 .left {
         float:left;
         width: 45%;
-        height:500px;
+        height:300px;
         padding: 0px;}
 
 .right {
         float:left;
         width:45%;
-        height:500px;
-        padding:0px;}
+        height:300px;
+        padding:0px;
+}
