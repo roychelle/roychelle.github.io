@@ -1,58 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+
 body {
-<<<<<<< HEAD
-        background-color: #E7E7E7;
-        padding: 10px;}
-        
-h1,h2,h3 {
-        font-family: Helvetica, Arial;
-        color: red;}
-p {
-        font-family: Helvetica, Arial;
-        color: gray;
-        padding 5px}
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;}
+
+
+
+body {
+		background-color: #FFF;
+        padding: 2%;}
+h1 {
+	font-family: "Antonio";
+	font-size:80px;
+	font-weight: bold;
+	text-align: top;
+	width: 40%;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: .01em;
+	padding:0}
+
+.title {
+	border-bottom: 2px black solid;
+	}
+
+.right{
+	display:inline;}
 
 ul {
         font-family: Helvetica, Arial;
         color: black;}
+ul#menu { 
+	margin-left:80%;}
+       
+h2 {
+        font-family: "Antonio";
+        font-weight: bold;
+        color:black;
+    	font-size: 30px;
+    	text-transform:uppercase;
+    	padding-bottom: 12px}
+h3 {
+       font-family: "Gill Sans";
+        color:black;
+    	font-size: 14px;}
+p {
+        font-family: Helvetica;
+        color: black;
+    	font-size:16px;
+    	line-height: 1.5em}
+
+
 div {
         background-color: white;
-        border: 2px black solid;
-        border-radius: 20px;
-        padding: 5px;}
-        
-#intro { 
-        font-family: Helvetica;
-        font-style: Bold;
-        color: #000;}
-        
-.highlights { 
-        font-style: Italic;}
-=======
-	background-color: #E7E7E7;
-	padding: 10px;}
-	
-h1,h2,h3 {
-	font-family: Helvetica, Arial;
-	color: red;}
-p {
-	font-family: Helvetica, Arial;
-	color: gray;
-	padding 5px}
+        padding: 10px;}
 
-ul {
-	font-family: Helvetica, Arial;
-	color: black;}
-div {
-	background-color: white;
-	border: 2px black solid;
-	border-radius: 20px;
-	padding: 5px;}
+div#left {
+	float:left;
+	width: 25%;
+	padding:2%;
+	padding-bottom: 200px;
+	font-family: Impact;
+	font-weight: bold;
+	background-color: white;}
+
+li {
+	padding: 12px;}
+      
+
 	
-#intro { 
-	font-family: Helvetica;
-	font-style: Bold;
-	color: #000;}
+
+
 	
-.highlights { 
-	font-style: Italic;}
->>>>>>> cdeae8dd0cf00f54eb6f54852acf0964f9b6dd3a
+
+
+
