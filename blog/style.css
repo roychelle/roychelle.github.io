@@ -73,13 +73,18 @@ h1 {
 	}
 
 .right{
-	display:inline;}
+	display:inline;
+    position: right;
+    padding:5px;}
 
 ul {
         font-family: Helvetica, Arial;
         color: black;}
+
 ul#menu { 
-	margin-left:80%;}
+    margin-left:80%;
+    display:inline;
+    background-position: right;}
        
 h2 {
         font-family: "Antonio";
@@ -101,13 +106,13 @@ p {
 
 div {
         background-color: white;
-        padding: 10px;}
+        padding: 20px;}
 
 div#left {
 	float:left;
 	width: 25%;
-	padding:2%;
-	padding-bottom: 200px;
+	padding-right:10%;
+	padding-bottom: 250px;
 	font-family: Impact;
 	font-weight: bold;
 	background-color: white;}
