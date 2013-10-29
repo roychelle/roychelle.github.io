@@ -60,7 +60,8 @@ h1 {
 	width: 40%;
 	color: black;
 	text-transform: uppercase;
-	letter-spacing: .001em;}
+	letter-spacing: .001em;
+    margin-bottom: -2%}
 
 @font-face {
     font-family: "Antonio";
