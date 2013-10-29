@@ -54,14 +54,13 @@ body {
         padding: 2%;}
 h1 {
 	font-family: "Antonio";
-	font-size:80px;
+	font-size:76px;
 	font-weight: bold;
 	text-align: top;
 	width: 40%;
 	color: black;
 	text-transform: uppercase;
-	letter-spacing: .01em;
-	padding:0}
+	letter-spacing: .001em;}
 
 @font-face {
     font-family: "Antonio";
@@ -69,8 +68,7 @@ h1 {
     font-weight: bold}
 
 .title {
-	border-bottom: 2px black solid;
-	}
+	border-bottom: 2px black solid;}
 
 .right{
 	display:inline;
@@ -84,7 +82,10 @@ ul {
 ul#menu { 
     margin-left:80%;
     display:inline;
-    background-position: right;}
+   }
+
+li {
+    padding: 12px;}
        
 h2 {
         font-family: "Antonio";
@@ -112,13 +113,21 @@ div#left {
 	float:left;
 	width: 25%;
 	padding-right:10%;
-	padding-bottom: 250px;
+	padding-bottom: 230px;
 	font-family: Impact;
 	font-weight: bold;
 	background-color: white;}
 
-li {
-	padding: 12px;}
+
+.subscript {
+    border-top: 2px black solid;
+    text-align: left;
+    font-family: Helvetica;
+    font-size:16px;
+    font-weight:bold;
+    width: 100%;
+}
+
       
 
 	
