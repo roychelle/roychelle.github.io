@@ -63,6 +63,11 @@ h1 {
 	letter-spacing: .01em;
 	padding:0}
 
+@font-face {
+    font-family: "Antonio";
+    src: url("Antonio-Bold.ttf") format("truetype");
+    font-weight: bold}
+
 .title {
 	border-bottom: 2px black solid;
 	}
