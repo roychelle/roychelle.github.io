@@ -52,19 +52,10 @@ table {
 body {
 		background-color: #FFF;
         padding: 2%;}
-h1 {
-	font-family: "league_gothicregular";
-	font-size:76px;
-	font-weight: bold;
-	text-align: top;
-	width: 40%;
-	color: black;
-	text-transform: uppercase;
-	letter-spacing: .001em;
-    margin-bottom: -2%}
+
 
 @font-face {
-     font-family: 'league_gothicregular';
+    font-family: 'league_gothicregular';
     src: url('type/leaguegothic-regular-webfont.eot');
     src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('type/leaguegothic-regular-webfont.woff') format('woff'),
@@ -73,6 +64,16 @@ h1 {
     font-weight: normal;
     font-style: normal;}
 
+h1 {
+    font-family: 'league_gothicregular';
+    font-size:76px;
+    font-weight: bold;
+    text-align: top;
+    width: 40%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .001em;
+    margin-bottom: -2%}
 .title {
 	border-bottom: 2px black solid;}
 
@@ -94,14 +95,14 @@ li {
     padding: 12px;}
        
 h2 {
-        font-family: "league_gothicregular";
+        font-family: 'league_gothicregular';
         font-weight: bold;
         color:black;
     	font-size: 30px;
     	text-transform:uppercase;
     	padding-bottom: 12px}
 h3 {
-       font-family: "league_gothicregular";
+       font-family: 'league_gothicregular';
         color:black;
     	font-size: 14px;}
 p {
