@@ -50,13 +50,14 @@ table {
 /* Start of My Code */
 
 nav { max-width: 1000px;
-    height:128px;
+    height:126px;
     width:1200px;
     background-image:url('image/logo.png');
-    padding-top: 82px;
+    padding-top: 80px;
     margin:auto;
-
 }
+
+
 .right{
   display:inline;
     position: right;
