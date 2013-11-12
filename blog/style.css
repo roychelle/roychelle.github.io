@@ -47,7 +47,7 @@ table {
         border-collapse: collapse;
         border-spacing: 0;}
 
-
+/* Start or My Code */
 
 body {
 		background-color: #FFF;
@@ -66,25 +66,24 @@ body {
 
 h1 {
     font-family: 'league_gothicregular';
-    font-size:76px;
+    font-size:108px;
     font-weight: bold;
     text-align: top;
     width: 40%;
     color: black;
     text-transform: uppercase;
     letter-spacing: .001em;
-    margin-bottom: -2%}
+    margin-bottom: -3%}
+
 .title {
-	border-bottom: 2px black solid;}
+	border-bottom: 2px black solid;
+    padding:0px;}
 
 .right{
 	display:inline;
-    position: right;
+    position: bottom;
     padding:5px;}
 
-ul {
-        font-family: Helvetica, Arial;
-        color: black;}
 
 ul#menu { 
     margin-left:80%;
@@ -104,7 +103,8 @@ h2 {
 h3 {
        font-family: 'league_gothicregular';
         color:black;
-    	font-size: 14px;}
+    	font-size: 14px;
+        letter-spacing: .001em}
 p {
         font-family: Helvetica;
         color: black;

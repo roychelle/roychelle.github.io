@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;}
+
+/* Start of My Code */
+#stage{margin:auto;
+	padding:30%;}
+
+#spinner div {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,1);
+    box-shadow: inset 0 0 20px #C6C5C5;
+    text-align: center;
+    font-family: 'antonioregular';
+    line-height: 400px;
+    font-size: 5em;
+    color:#F37720;
+    -webkit-transform: perspective(500px);
+  }
+
+@font-face {
+    font-family: 'antonioregular';
+    src: url('type/antonio-regular-webfont.eot');
+    src: url('type/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/antonio-regular-webfont.woff') format('woff'),
+         url('type/antonio-regular-webfont.ttf') format('truetype'),
+         url('type/antonio-regular-webfont.svg#antonioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+  #spinner .face1 { -webkit-transform: translateZ(200px);}
+  #spinner .face2 { -webkit-transform: rotateY(90deg) translateZ(200px);}
+  #spinner .face3 { -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(200px);}
+  #spinner .face4 { -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(200px);}
+  #spinner .face5 { -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(200px);}
+  #spinner .face6 { -webkit-transform: rotateX(-90deg) translateZ(200px);}
+
+@-webkit-keyframes spincube {
+    from,to  {                                                    }
+    16%      { -webkit-transform: rotateY(-90deg);                }
+    33%      { -webkit-transform: rotateY(-90deg) rotateZ(90deg); }
+    50%      { -webkit-transform: rotateY(180deg) rotateZ(90deg); }
+    66%      { -webkit-transform: rotateY(90deg) rotateX(90deg);  }
+    83%      { -webkit-transform: rotateX(90deg);                 }
+}
+
+  #spinner {
+    -webkit-animation-name: spincube;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 30s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 200px 200px 0;
+}
