@@ -48,8 +48,35 @@ table {
         border-spacing: 0;}
 
 /* Start of My Code */
+
+nav { max-width: 1000px;
+    height:128px;
+    width:1200px;
+    background-image:url('image/logo.png');
+    padding-top: 82px;
+    margin:auto;
+
+}
+.right{
+  display:inline;
+    position: right;
+}
+
+ul#menu { 
+    margin-left:50%;
+    display:inline;
+    font-family:'antonioregular';
+    font-size:5em ;
+    text-transform: uppercase;
+    color:#F37720;
+   }
+
+li {
+    padding-right: 12px;
+    padding-left: 12px;}
+
 #stage{margin:auto;
-	padding:20%;}
+	padding:0;}
 
 #spinner div {
     position: absolute;
