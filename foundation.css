@@ -56,28 +56,29 @@ body {
     font-style: normal;}
 
 
-div#me{ max-width: 100%}
+div#me{ max-width: 100%;}
 
 .photo{
         float:right;
-        width:80%;
+        width:85%;
         height:auto;
         margin-top: 0%;
         min-height: :60%;
         max-height: 100%;}
 
-.diagonal {max-width: 25%;
+.diagonal {max-width:25%;
     margin-left:1%;
     padding-top: 25%;
    margin-right:30%;
-   position:absolute;
+   position:relative;
     -webkit-transform-style: preserve-3d;
     -webkit-perspective:350px;
     -moz-transform-style:preserve-3d;
     -moz-perspective:350px;
     -ms-transform-style:preserve-3d;
     -ms-perspective:350px;
-    min-width: 300px;} 
+    min-width: 300px;
+  } 
 
 .top,.bottom{;
      font-size: 1.5em;
@@ -1172,7 +1173,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: inherit;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -4295,12 +4296,13 @@ ul.pagination {
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-    color: #9B9B9B; }
+    color: #F37720; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625em; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
+      h6.subheader {color:#9B9B9B;}
   .panel.callout {
     border-style: solid;
     border-width: 1px;
