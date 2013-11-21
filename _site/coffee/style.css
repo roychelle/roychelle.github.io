@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+body {
+        padding: 10px;}
+
+h1 {    font-family: Arial;
+        font-size: 40px;
+        color: white;
+        font-weight: bold ;
+        margin: auto ;
+        width:15%;
+        text-align: center;}
+span#beans {
+        letter-spacing:.12em;
+        text-align: center}
+        
+h2,h3 {
+        font-family: Helvetica, Arial;
+        color: red;
+        padding:5px;}
+p {
+        font-family: Helvetica, Arial;
+        color: gray;
+        padding:5px}
+
+ul {
+        font-family: Helvetica, Arial;
+        color: black;
+        margin}
+div {
+        background-color: white;
+        padding: 5px;
+        text-align: center;}
+
+br {
+       line-height: 10px;
+}
+
+nav {
+        background-color: red;
+}
+section {
+        background-color: #472400;
+        height: 80px;
+        margin:auto;}
+
+.subscript {
+        font-family: Helvetica, Arial;
+        font-weight: bold;
+        font-size: 75%;
+        color: white;
+        bottom:0px;
+        position: absolute;
+        margin:auto;
+        width: 100%;
+        text-align:center;}
+
+        
+#intro { 
+        font-family: Helvetica;
+        font-weight: bold;
+        color: #000;}
+
+ul#menu {
+       font-weight: bold;
+        padding:10px;
+        margin: auto;
+        width: 33%;}
+
+div#title { 
+            border-radius:0px;
+            background-image: url("coffee_beans.jpg");
+            width: 100%;}
+span#dream {
+                font-family: "Brush Script MT";
+                height: 50px;
+                text-decoration: underline white dashed;
+                font-size: 70px;
+                word-spacing: .5em}
+
+
+li {
+        color: white;
+        display: inline;
+        padding-left:10px;
+        padding-right:10px;}
+        
+.highlights { 
+        font-style: italic;}
+
+.left {
+        float:left;
+        width: 40%;
+        height:300px;
+        padding: 10px;
+        margin-left: 55px;}
+
+.right {
+        float:left;
+        width:40%;
+        height:300px;
+        padding:10px;
+        margin-left: 40px}
