@@ -125,7 +125,8 @@ li {
 }
 
 
-
+p.description {color:#9B9B9B;
+          font-size: 1em}
 
 
 body {
@@ -4282,6 +4283,8 @@ ul.pagination {
   border-style: solid;
   border-width: 1px;
   border-color: #d9d9d9;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 1.25em;
   padding: 1.25em;
   background: #EDEDED; }
@@ -4289,8 +4292,9 @@ ul.pagination {
     margin-top: 0; }
   .panel > :last-child {
     margin-bottom: 0; }
-  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6,{
     color: #F37720; }
+    
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625em; }
