@@ -1015,30 +1015,7 @@ font-family: {'antonioregular'}
     font-weight: bold;
     cursor: pointer; }
 
- /* Foundation Visibility HTML Classes */
-.show-for-small,
-.show-for-medium-down,
-.show-for-large-down {
-  display: inherit !important; }
-
-.show-for-medium,
-.show-for-medium-up,
-.show-for-large,
-.show-for-large-up,
-.show-for-xlarge {
-  display: none !important; }
-
-.hide-for-medium,
-.hide-for-medium-up,
-.hide-for-large,
-.hide-for-large-up,
-.hide-for-xlarge {
-  display: inherit !important; }
-
-.hide-for-small,
-.hide-for-medium-down,
-.hide-for-large-down {
-  display: none !important; }
+ 
 
 .orbit-bullets li:last-child {
 margin-right: 0;
