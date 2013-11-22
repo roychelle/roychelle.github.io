@@ -12,8 +12,25 @@
   <link rel="stylesheet" href="normalize.css">
    <link rel="stylesheet" href="foundation.css">
     
-
   <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script> $.fn.ready(function() {
+
+        // Smooth scroll to top.
+        $("a[href=#top]").live("click", function(e) {
+          $("html,body").animate({scrollTop:0}, 1000);
+          e.preventDefault();
+        });
+
+        // Smooth scroll to bottom.
+        $("a[href=#bot]").live("click", function(e) {
+          $("html,body").animate({scrollTop:$(document).height()}, 1000);
+          e.preventDefault();
+        });
+      });
+  </script>
+</head>
+<body>
 
 </head>
 <body>
@@ -88,7 +105,7 @@
     <!-- Mobile Header -->
 
 
-    <div class="row">
+    <div class="row" id="bottom">
       <div class="small-12 show-for-small"><br>
               <img src="web/summon.png" alt="slide image"><br/><br/>
               <img src="web/alley.png" alt="slide image"><br/><br/>
