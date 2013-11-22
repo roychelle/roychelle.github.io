@@ -15,7 +15,22 @@
     
 
   <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script> $.fn.ready(function() {
 
+        // Smooth scroll to top.
+        $("a[href=#top]").live("click", function(e) {
+          $("html,body").animate({scrollTop:0}, 1000);
+          e.preventDefault();
+        });
+
+        // Smooth scroll to bottom.
+        $("a[href=#bot]").live("click", function(e) {
+          $("html,body").animate({scrollTop:$(document).height()}, 1000);
+          e.preventDefault();
+        });
+      });
+  </script>
 </head>
 <body>
 
@@ -27,7 +42,7 @@
     </div>
     <div class="large-9 columns">
       <ul class="button-group right">
-          <li><a href="#" class="button">about me</a></li>
+          <li><a href="#bottom" class="button">about me ↓</a></li>
           <li><a href="portfolio/index.html" class="button">portfolio</a></li>
           <li><a href="resume/roychelle_lindo_resume.pdf" class="button">resume</a></li>
           <li><a href="mailto:roychellelindo@gmail.com" target="_blank" class="button">contact</a></li>
@@ -83,7 +98,7 @@
 <!-- Set the viewport width to device width for mobile -->
 
 
-  <div class="row">
+  <div class="row" id="bottom">
     <div class="large-12 columns">
  
       <!-- Navigation -->
@@ -94,6 +109,7 @@
           <li><a href="mailto:roychellelindo@gmail.com" target="_blank" class="button">Contact</a></li>
         </ul>
     </div>
+
   </div>
  
       <!-- End Navigation -->
