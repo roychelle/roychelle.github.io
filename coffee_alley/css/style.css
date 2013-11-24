@@ -1,4 +1,77 @@
-li .brown{background-color:#533a2e;
-        color: white}
+@font-face {
+    font-family: 'voltaireregular';
+    src: url('../type/voltaire-regular-webfont.eot');
+    src: url('../type/voltaire-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/voltaire-regular-webfont.woff') format('woff'),
+         url('../type/voltaire-regular-webfont.ttf') format('truetype'),
+         url('../type/voltaire-regular-webfont.svg#voltaireregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
 
-div .gold {background-color:#fdcf6e;}
+body{position:relative;
+	padding:0;
+	margin:0;}
+
+div .menu{width: 100%;
+		padding:0;
+		position: relative;
+		border: solid black;
+		display: inline-block;
+		margin:auto;
+		max-width: 62.5rem}
+
+
+
+ul.left {width: 25%;
+		list-style: none;
+		color: white;
+		background-color:#533a2e;
+		line-height: 1.5em;
+		font-family:'voltaireregular';
+		font-size: 1.5em;
+		padding:0;
+		margin:0;
+		margin-left: 1em;
+		display: inline-block;
+		float:left;
+		position: relative;}
+
+ul.middle {width:25%;
+		list-style: none;
+		color: white;
+		background-color:#533a2e;
+		line-height: 1.5em;
+		font-family:'voltaireregular';
+		font-size: 1.5em;
+		text-transform: uppercase;
+		padding:0;
+		margin:0;
+		display: inline-block;
+		margin-left:-0.5em;
+		float:left;
+		position: relative}
+
+ul.right {width: 50%;
+		list-style: none;
+		color: white;
+		background-color:#533a2e;
+		margin-left:-0.5em;
+		line-height: 1.5em;
+		font-family:'voltaireregular';
+		font-size: 1.5em;
+		text-transform: uppercase;
+		padding:0;
+		margin-top: 0;
+		float:left;
+		position:relative;}
+
+div .gold {background-color:#fdcf6e;
+			height:80px;
+			padding:0;}
+
+div .orange { background-color:#d26743;
+				height:80px;
+				padding:0;}
+
+div .brown {background-color: #533a2e;
+			height:36px}
