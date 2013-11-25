@@ -10,7 +10,8 @@
 
 body{position:relative;
 	padding:0;
-	margin:0;}
+	margin:0;
+	background-color: #f1e09e}
 
 div .header{margin:auto;
 		max-width: 62.5rem}
