@@ -12,6 +12,15 @@ body{position:relative;
 	padding:0;
 	margin:0;}
 
+div .header{margin:auto;
+		max-width: 62.5rem}
+
+div .title {font-family: 'voltaireregular';
+			font-size: 6em;
+			color:white;
+			background-color:#533a2e;
+			margin-top:-1.9em;}
+
 div .menu{width: 100%;
 		padding:0;
 		position: relative;
@@ -31,7 +40,7 @@ ul.left {width: 25%;
 		font-size: 1.5em;
 		padding:0;
 		margin:0;
-		margin-left: 1em;
+		margin-left: 0;
 		display: inline-block;
 		float:left;
 		position: relative;}
@@ -47,7 +56,7 @@ ul.middle {width:25%;
 		padding:0;
 		margin:0;
 		display: inline-block;
-		margin-left:-0.5em;
+		margin-left:0em;
 		float:left;
 		position: relative}
 
@@ -61,6 +70,7 @@ ul.right {width: 50%;
 		font-size: 1.5em;
 		text-transform: uppercase;
 		padding:0;
+		padding-right: .5em;
 		margin-top: 0;
 		float:left;
 		position:relative;}
