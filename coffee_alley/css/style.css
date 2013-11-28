@@ -11,78 +11,72 @@
 body{position:relative;
 	padding:0;
 	margin:0;
-	background-color: #f1e09e}
+	background-color: #f1e09e;
+	max-width:100%}
+	
+
+#columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
 
 div .header{margin:auto;
-		max-width: 62.5rem}
+		max-width: 100%;
+		}
 
-div .title {font-family: 'voltaireregular';
-			font-size: 6em;
-			color:white;
-			background-color:#533a2e;
-			margin-top:-1.9em;}
+div .title {width:100%;
+	font-family: 'voltaireregular';
+	font-size: 6em;
+	color: white;
+	background-color: #533a2e;
+	margin-top: -1.9em;
+	text-align:right;}
 
-div .menu{width: 100%;
+div .menu{width:100%;
 		padding:0;
 		position: relative;
-		border: solid black;
 		display: inline-block;
-		margin:auto;
-		max-width: 62.5rem}
+		margin: auto;}
 
+ul.left { width:20%;
+	line-height: 1.05em;
+	list-style: none;
+	color: white;;
+	font-family: 'voltaireregular';
+	text-position: center;
+	font-size: 1.7em;
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+	display: inline-block;
+	float: left;
+	position: relative;
+	background-image:url('../img/left.png');}
 
-
-ul.left {width: 25%;
-		list-style: none;
-		color: white;
-		background-color:#533a2e;
-		line-height: 1.5em;
-		font-family:'voltaireregular';
-		font-size: 1.5em;
-		padding:0;
-		margin:0;
-		margin-left: 0;
-		display: inline-block;
+.middle {width:auto;
+		height:100%;
+		height:auto;
 		float:left;
 		position: relative;}
-
-ul.middle {width:25%;
-		list-style: none;
+		
+.right {width:auto;
+		height:100%;
 		color: white;
-		background-color:#533a2e;
-		line-height: 1.5em;
-		font-family:'voltaireregular';
-		font-size: 1.5em;
-		text-transform: uppercase;
 		padding:0;
 		margin:0;
-		display: inline-block;
-		margin-left:0em;
 		float:left;
-		position: relative}
+		position:center;
+		margin-top: -.2em
+		}
 
-ul.right {width: 50%;
-		list-style: none;
-		color: white;
-		background-color:#533a2e;
-		margin-left:-0.5em;
-		line-height: 1.5em;
-		font-family:'voltaireregular';
-		font-size: 1.5em;
-		text-transform: uppercase;
-		padding:0;
-		padding-right: .5em;
-		margin-top: 0;
-		float:left;
-		position:relative;}
-
-div .gold {background-color:#fdcf6e;
-			height:80px;
+div #gold {background-color:#fdcf6e;
+			height:120px;
 			padding:0;}
 
-div .orange { background-color:#d26743;
-				height:80px;
+div #orange { background-color:#d26743;
+				height:110px;
 				padding:0;}
-
-div .brown {background-color: #533a2e;
-			height:36px}
+ 
