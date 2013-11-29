@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'voltaireregular';
+    src: url('../type/voltaire-regular-webfont.eot');
+    src: url('../type/voltaire-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/voltaire-regular-webfont.woff') format('woff'),
+         url('../type/voltaire-regular-webfont.ttf') format('truetype'),
+         url('../type/voltaire-regular-webfont.svg#voltaireregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+body{position:relative;
+	padding:0;
+	margin:0;
+	background-color: #f1e09e;
+	max-width:100%}
+	
+
+#columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+
+div .header{margin:auto;
+		max-width: 100%;
+		}
+
+div .title {width:100%;
+	font-family: 'voltaireregular';
+	font-size: 6em;
+	color: white;
+	background-color: #533a2e;
+	margin-top: -1.9em;
+	text-align:right;}
+
+div .menu{width:100%;
+		padding:0;
+		position: relative;
+		display: inline-block;
+		margin: auto;}
+
+ul.left { width:20%;
+	line-height: 1.05em;
+	list-style: none;
+	color: white;;
+	font-family: 'voltaireregular';
+	text-position: center;
+	font-size: 1.7em;
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+	display: inline-block;
+	float: left;
+	position: relative;
+	background-image:url('../img/left.png');}
+
+.middle {width:auto;
+		height:100%;
+		height:auto;
+		float:left;
+		position: relative;}
+		
+.right {width:auto;
+		height:100%;
+		color: white;
+		padding:0;
+		margin:0;
+		float:left;
+		position:center;
+		margin-top: -.2em
+		}
+
+div #gold {background-color:#fdcf6e;
+			height:120px;
+			padding:0;}
+
+div #orange { background-color:#d26743;
+				height:110px;
+				padding:0;}
+ 
