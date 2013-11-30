@@ -160,7 +160,8 @@ section { width:25%;
 		position:0;
 		margin:0}
 
-.background {width:50%;
+.background {width:auto;
+		height:100%;
 		float: right;
 		margin:0;
 		padding:0;}
@@ -213,3 +214,12 @@ input {
 		-webkit-user-select: text;
 		cursor: auto;
 		margin-top: .15em}
+
+.about {width:100%;
+		background-color: #a43c2e;
+		color:#f1e09e;
+		text-align: justify;
+		font-size: 1.25em;}
+
+h1{font-family: 'carnivalee_freakshow_demoRg';
+	color:#f1e09e}
