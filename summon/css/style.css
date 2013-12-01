@@ -186,24 +186,25 @@ footer {display: inline-block;
 	margin: auto;
 	bottom:0;}
 
-.email {width:100%;
+.email {width:70%;
 		position:right;
 		margin:auto;
 		padding:0;}
 
-.signup-submit {width:275px;
+.signup-submit {width:182px;
 				font-family: 'antoniobold';
 				text-transform: uppercase;
 				font-size:1.3em;
 				color:#f1e09e; 
 				background-color:#a43c2e;
-				box-shadow: 1px;
+				box-shadow: none;
 				border: 2px outset buttonface;
 				border-color: #eb9a35;
-				padding:0;}
+				padding:0;
+				position: center}
 
 input {
-		width:272px;
+		width:275px;
 		font-family: 'antoniolight';
 		-webkit-appearance: textfield;
 		background-color: #f1e09e;
@@ -217,7 +218,8 @@ input {
 		border-image-repeat: initial;
 		-webkit-rtl-ordering: logical;
 		-webkit-user-select: text;
-		cursor: auto;}
+		cursor: auto;
+		position: center;}
 
 .about {bottom:0;
 		background-color: #a43c2e;
