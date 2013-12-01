@@ -188,9 +188,8 @@ footer {display: inline-block;
 
 .email {width:100%;
 		float:right;
-		margin:0;
-		padding:0;
-		}
+		margin:auto;
+		padding:0;}
 
 #signup-submit {width:185px;
 				font-family: 'antoniobold';
@@ -204,7 +203,7 @@ footer {display: inline-block;
 				padding:0;}
 
 input {
-		width:350px;
+		width:277px;
 		font-family: 'antoniolight';
 		-webkit-appearance: textfield;
 		background-color: #f1e09e;
