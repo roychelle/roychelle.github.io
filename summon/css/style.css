@@ -61,7 +61,7 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
-	display:block;
+	display:inline-block;
 }
 }
 body {
@@ -130,14 +130,12 @@ h2 {color:#a43c2e;
 	text-transform: uppercase;}
 
 p {font-family:'antoniolight';
-
-	font-size:1em 2vw;
-	text-align: center;
+	font-size:1em;
+	text-align: left;
 	color:#f1e09e;
-	width:70%;
-	position: center;
 	margin:auto;
-	padding-top: 1em}
+	padding-top: .75em;
+	position: center;}
 
 .round {max-width: 100%;
 		max-height: auto;
@@ -154,20 +152,27 @@ section { width:25%;
 		margin-bottom: 0;
 		padding-left: 75%}
 
+.splash {width:100%;
+		display: inline-block;
+		position: relative;
+		padding:0;
+		margin:0;
+		vertical-align: middle;}
+
 .chicken {float: left;
 		width:auto;
 		height:100%;
-		position:0;
-		margin:0}
+		padding:0;
+		margin:0;
+		display: inline-block;}
 
 .background {width:auto;
 		height:100%;
 		float: right;
 		margin:0;
-		padding:0;}
+		padding:0;
+		display: inline-block;}
 
-.splash {width:100%;
-		display: block;}
 
 footer {display: inline-block;
 	width:100%;
@@ -215,11 +220,11 @@ input {
 		cursor: auto;
 		margin-top: .15em}
 
-.about {width:100%;
+.about {
 		background-color: #a43c2e;
 		color:#f1e09e;
 		text-align: justify;
-		font-size: 1.25em;}
+		font-size: 1.25em;
+		padding-left:10%;
+		padding-right:10%;}
 
-h1{font-family: 'carnivalee_freakshow_demoRg';
-	color:#f1e09e}
