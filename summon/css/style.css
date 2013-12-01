@@ -186,12 +186,12 @@ footer {display: inline-block;
 	margin: auto;
 	bottom:0;}
 
-.email {width:70%;
+.email {width:90%;
 		position:right;
 		margin:auto;
 		padding:0;}
 
-.signup-submit {width:182px;
+.signup-submit {width:170px;
 				font-family: 'antoniobold';
 				text-transform: uppercase;
 				font-size:1.3em;
@@ -204,7 +204,7 @@ footer {display: inline-block;
 				position: center}
 
 input {
-		width:275px;
+		width:65%;
 		font-family: 'antoniolight';
 		-webkit-appearance: textfield;
 		background-color: #f1e09e;
