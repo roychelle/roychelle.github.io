@@ -189,7 +189,8 @@ footer {display: inline-block;
 .email {width:90%;
 		position:right;
 		margin:auto;
-		padding:0;}
+		padding:0;
+		padding-bottom:1.75px}
 
 .signup-submit {width:170px;
 				font-family: 'antoniobold';
