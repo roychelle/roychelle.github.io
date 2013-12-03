@@ -3325,11 +3325,11 @@ label.error {
   .block{
   width:1000px;
   background: rgba(0, 0, 0, 0.6);
-  padding:15px 0px 15px 20px;
+  padding:15px 0px 20px 15px;
   color:#FFF;
   font-style:normal;
-  font-size:.9em;
-  line-height:18px;
+  font-size:.95em;
+  line-height:1em;
   font-family:'antonioregular'}
 
 .preloader {
