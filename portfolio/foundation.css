@@ -3322,6 +3322,16 @@ label.error {
       .slideshow-wrapper .orbit-container li .orbit-caption {
         display: block; }
 
+  .block{
+  width:1000px;
+  background: rgba(0, 0, 0, 0.6);
+  padding:15px 0px 15px 20px;
+  color:#FFF;
+  font-style:normal;
+  font-size:.9em;
+  line-height:18px;
+  font-family:'antonioregular'}
+
 .preloader {
   display: block;
   width: 40px;
