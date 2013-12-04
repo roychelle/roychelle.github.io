@@ -3325,12 +3325,15 @@ label.error {
   .block{
   width:1000px;
   background: rgba(0, 0, 0, 0.6);
-  padding:15px 0px 20px 15px;
+  padding:20px 54px 20px 20px;
   color:#FFF;
   font-style:normal;
-  font-size:.95em;
+  font-size:1em;
   line-height:1em;
-  font-family:'antonioregular'}
+  font-family:'antoniolight';
+  text-align: center;;
+  text-align: justify;
+  letter-spacing: 6px)}
 
 .preloader {
   display: block;
