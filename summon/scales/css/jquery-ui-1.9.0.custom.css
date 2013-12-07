@@ -18,14 +18,15 @@ Designer: Tony Thomas
 ----------------------------------*/
 
 
-body {width:auto;
-	   height:100%;}
+body {width:640px;
+    height: 1136px;}
 
 .background {width:640px;
 			height: 1136px;
 			background-image:url('../images/scales.png');
 			margin:0;
-			display: inline-block;}
+			display: inline-block;
+            overflow: hidden;}
 
 .hand{
     margin:auto;
