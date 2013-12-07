@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>The Scales</title>
+	<link href="css/jquery-ui-1.9.0.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.8.2.js"></script>
+	<script src="js/jquery-ui-1.9.0.custom.js"></script>
+	<script>
+	$(function() {
+		
+		$( "#accordion" ).accordion();
+		
+
+		
+		var availableTags = [
+			"ActionScript",
+			"AppleScript",
+			"Asp",
+			"BASIC",
+			"C",
+			"C++",
+			"Clojure",
+			"COBOL",
+			"ColdFusion",
+			"Erlang",
+			"Fortran",
+			"Groovy",
+			"Haskell",
+			"Java",
+			"JavaScript",
+			"Lisp",
+			"Perl",
+			"PHP",
+			"Python",
+			"Ruby",
+			"Scala",
+			"Scheme"
+		];
+		$( "#autocomplete" ).autocomplete({
+			source: availableTags
+		});
+		
+
+		
+		$( "#button" ).button();
+		$( "#radioset" ).buttonset();
+		
+
+		
+		$( "#tabs" ).tabs();
+		
+
+		
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			width: 400,
+			buttons: [
+				{
+					text: "Ok",
+					click: function() {
+						$( this ).dialog( "close" );
+					}
+				},
+				{
+					text: "Cancel",
+					click: function() {
+						$( this ).dialog( "close" );
+					}
+				}
+			]
+		});
+
+		// Link to open the dialog
+		$( "#dialog-link" ).click(function( event ) {
+			$( "#dialog" ).dialog( "open" );
+			event.preventDefault();
+		});
+		
+
+		
+		$( "#datepicker" ).datepicker({
+			inline: true
+		});
+		
+
+		
+		// Horizontal Slider
+		$('#horizSlider').slider({
+			range: true,
+			values: [17, 67]
+		}).width(500);
+		
+		// Vertical Slider				
+		$("#eq > span").each(function() {
+			var value = parseInt($(this).text());
+			$(this).empty().slider({
+				value: value,
+				range: "min",
+				animate: true,
+				orientation: "vertical"
+			});
+		});
+		
+
+		
+		$( "#progressbar" ).progressbar({
+			value: 70
+		});
+		
+		// Icon Buttons
+		$("#leftIconButton").button({
+			icons: {
+				primary: 'ui-icon-info'
+			}
+		});
+		
+		$("#bothIconButton").button({
+			icons: {
+				primary: 'ui-icon-folder-collapsed',
+				secondary: 'ui-icon-triangle-1-s'
+			}
+		});	
+		
+
+		// Hover states on the static widgets
+		$( "#dialog-link, #icons li" ).hover(
+			function() {
+				$( this ).addClass( "ui-state-hover" );
+			},
+			function() {
+				$( this ).removeClass( "ui-state-hover" );
+			}
+		);
+	});
+	</script>
+	
+</head>
+<body>
+
+<div class="background">
+	<p class="hand"><img src="images/pointinghand.png" alt="hand"></p>
+	<div class="columnbox">
+	<div id="eq">
+		<span>20</span>
+		<span>70</span>
+
+	</div>
+</div>
+
+
+</body>
+</html>
