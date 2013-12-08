@@ -19,7 +19,9 @@ Designer: Tony Thomas
 
 
 body {width:640px;
-    height: 1136px;}
+    height: 1136px;
+    padding:0;
+    margin: 0}
 
 .background {width:640px;
 			height: 1136px;
