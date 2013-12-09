@@ -22,7 +22,7 @@ body {
   font-family:sans-serif;
 }
 h1 {
-  font-size:24px;
+  font-size:32px;
   text-align:center;
   color:rgb(164,60,46);
   font-family: 'captain_howdyregular';
@@ -30,7 +30,7 @@ h1 {
   margin:0;
 }
 h2 {
-  font-size:14px;
+  font-size:20px;
   color:rgb(164,60,46);
   font-family: 'captain_howdyregular';
   padding:4px;
@@ -39,9 +39,9 @@ h2 {
 hr {padding:0;
     margin:0;
     border-color:rgb(164,60,46);
-    background-color:rgb(164,60,46);}
+    height:0;}
 
-p {font-size: 10px;
+p {font-size: 20px;
     font-family:'Helvetica' 'Arial';
     padding:0;
     margin:0;}
@@ -65,9 +65,9 @@ a {
 }
 .swipe li div, .swipe div div div {
   margin:0 8px;
-  padding:50px 8px;
+  padding:20px 8px;
   box-shadow: inset 0 0 20px rgb(102 ,34,31);
-  height: 116px;
+  height: 172px;
   background:rgb(250,247,201);
   border-radius: 8px;
   font-weight:bold;
