@@ -22,7 +22,7 @@ body {
   font-family:sans-serif;
 }
 h1 {
-  font-size:32px;
+  font-size:36px;
   text-align:center;
   color:rgb(164,60,46);
   font-family: 'captain_howdyregular';
@@ -30,7 +30,7 @@ h1 {
   margin:0;
 }
 h2 {
-  font-size:22px;
+  font-size:28px;
   color:rgb(164,60,46);
   font-family: 'captain_howdyregular';
   padding:0;
@@ -42,7 +42,7 @@ hr {padding:0;
     height: 30px;
     border-style: solid;
     border-width: 1px 0 0 0;
-    border-radius: 20px;}
+    border-radius: 15px;}
 
   hr:before { /* Not really supposed to work, but does */
     display: block;
@@ -52,10 +52,10 @@ hr {padding:0;
     border-style: solid;
     border-color: rgb(164,60,46);
     border-width: 0 0 1px 0;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
-p {font-size: 20px;
+p {font-size: 24px;
     font-family:'Helvetica' 'Arial';
     padding:0;
     margin:0;}
