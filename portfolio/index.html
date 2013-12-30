@@ -11,24 +11,7 @@
 
   <link rel="stylesheet" href="normalize.css">
    <link rel="stylesheet" href="foundation.css">
-    
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script> $.fn.ready(function() {
-
-        // Smooth scroll to top.
-        $("a[href=#top]").live("click", function(e) {
-          $("html,body").animate({scrollTop:0}, 1000);
-          e.preventDefault();
-        });
-
-        // Smooth scroll to bottom.
-        $("a[href=#bot]").live("click", function(e) {
-          $("html,body").animate({scrollTop:$(document).height()}, 1000);
-          e.preventDefault();
-        });
-      });
-  </script>
+   
 
 </head>
 <body>
@@ -526,6 +509,23 @@
     <div class="large-12 columns">
         <br/>
     </div>
+    <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script> $.fn.ready(function() {
+
+        // Smooth scroll to top.
+        $("a[href=#top]").live("click", function(e) {
+          $("html,body").animate({scrollTop:0}, 1000);
+          e.preventDefault();
+        });
+
+        // Smooth scroll to bottom.
+        $("a[href=#bot]").live("click", function(e) {
+          $("html,body").animate({scrollTop:$(document).height()}, 1000);
+          e.preventDefault();
+        });
+      });
+  </script>
 
    <script>
   document.write('<script src=js/vendor/' +
