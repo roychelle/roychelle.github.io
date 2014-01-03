@@ -11,7 +11,8 @@
  <title>The Coffee Alley&nbsp;&nbsp;</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -25,7 +26,9 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="js/respond.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+
 </head>
 <body>
 <div class="gridContainer clearfix">
@@ -33,35 +36,67 @@ Do the following if you're using your customized build of modernizr (http://www.
    <!-- Header and Nav --> 
 
    <div class="header">
-   <img src="img/logo.png"/> 
-   <h1 class="title">&nbsp;&nbsp;&nbsp;&nbsp;THE COFFEE ALLEY</h1>
-   </div>
+    <img src="img/banner.png"/> 
+      <div id="cycler">
+        <img class="active" src="img/1.png" alt="Counter" title="Counter" width="100%" height="auto" />
+        <img src="img/2.png" alt="Customers" title="Customers" width="100%" height="auto"  />
+        <img src="img/3.png" alt="Sun" title="Sun" width="100%" height="auto"  />
+        <img src="img/4.png" alt="Logo" title="Logo" width="100%" height="auto"  />   
+      </div>
+    </div>
 
-    <!--Main Content --> 
-<div class="menu">
-           
-  <ul class="left">
-                  <br>
-                     <li>&nbsp;&nbsp;ABOUT US</li>
-                     <br><br><br><br><br>
-                     <li>&nbsp;&nbsp;MENU</li>
-                      <br><br><br><br><br>
-                     <li>&nbsp;&nbsp;LOCATION</li>
-                    <br><br><br><br><br>
-                	<li>&nbsp;&nbsp;PHOTOS</li>
-                    <br>
-  </ul>
-   <p><img src="img/middle.png" alt= "stripes" class="middle"/>
-   <br>
-<img src="img/right.png" alt= "coffee_cup" class="right"/></p>
-</div> 
-  <footer>
-    <ul> 
-        <li class="footing"> CONTACT US</li>
-        <li class="footing"> BLOG</li>
-        <li class="footing">LOCATION</li>
-    </ul>
-  </footer>    
-</div>
+
+
+
+ 
+<script type="text/javascript">
+function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+        $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+$(document).ready(function(){
+// run every 4s
+setInterval('cycleImages()', 4000);
+})</script>
+
+<script>
+      //  The function to change the class
+      var changeClass = function (r,className1,className2) {
+        var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
+        if( regex.test(r.className) ) {
+          r.className = r.className.replace(regex,' '+className2+' ');
+          }
+          else{
+          r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
+          }
+          return r.className;
+      };  
+
+      //  Creating our button in JS for smaller screens
+      var menuElements = document.getElementById('menu');
+      menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+
+      //  Toggle the class on click to show / hide the menu
+      document.getElementById('menutoggle').onclick = function() {
+        changeClass(this, 'navtoogle active', 'navtoogle');
+      }
+
+      // http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/comment-page-2/#comment-438918
+      document.onclick = function(e) {
+        var mobileButton = document.getElementById('menutoggle'),
+          buttonStyle =  mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
+
+        if(buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
+          changeClass(mobileButton, 'navtoogle active', 'navtoogle');
+        }
+      }
+    </script>
+    
 </body>
 </html>

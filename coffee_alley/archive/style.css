@@ -39,7 +39,6 @@ img, object, embed, video {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
-
 #LayoutDiv1 {
 	clear: both;
 	float: left;
@@ -93,27 +92,8 @@ body{position:relative;
 
 
 .header{margin:auto;
-		width: 100%;
-		z-index: 10}
-
-body { padding-bottom: 20px }
-#main { background: #fff; margin: auto; padding: 20px; max-width: 1200px }
-#main h1 { padding:0; margin-top: 20px }
-#main h2 { text-align: left }
-#header { background-color: #eee; font-weight: normal; margin:0; padding:10px; border-bottom: 1px solid #ddd }
-#logo { display: none }
-
-#cycler{position:relative;
-		width:100%;
-		position: relative;
-		padding:0;
-		margin:0;
-		margin-top: -10em;
-		z-index: -3;}
-
-#cycler img{position:absolute;z-index:1;background-color:white}
-#cycler img.active{z-index:3}
-
+		max-width: 100%;
+		}
 
 .title {width:100%;
 	font-family: 'voltaireregular';
@@ -123,6 +103,11 @@ body { padding-bottom: 20px }
 	margin-top: -1.9em;
 	text-align:center;}
 
+.menu{width:100%;
+		padding:0;
+		position: relative;
+		display: inline-block;
+		margin: auto;}
 
 .left { width:200px;
 	line-height: 1.05em;
@@ -164,24 +149,21 @@ div #orange { background-color:#d26743;
 				padding:0;}
 
 footer {float:right;
-		width: 100%;
+		width:475px;
 		display: inline-block;
 		font-family: 'voltaireregular';
 		font-size: 1.25em;
 		line-height: .5em;
 		color: white;
+		background-color: #533a2e;
 		list-style: none;
 		text-align: left;
 		padding:0;
-		margin:0;
-		position: absolute;
-		bottom: 0}
+		margin-top: -3.25em;}
 
 .footing {
 		display: inline-block;
 		list-style: none;
 		padding:0;
-		width:70%;
-		z-index: 10;
-		position: relative;
-		bottom: 0}
+		margin-left: 30px;
+		margin-right:35px;}
