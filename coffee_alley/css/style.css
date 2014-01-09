@@ -1,187 +1,49 @@
-@charset "UTF-8";
-/* Simple fluid media
-   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
-   http://www.alistapart.com/articles/fluid-images/ 
-*/
-img, object, embed, video {
-	max-width: 100%;
-}
-/* IE 6 does not support max-width so default to width 100% */
-.ie6 img {
-	width:100%;
-}
-
-
-*/
-
-/* Mobile Layout: 480px and below. */
-
-.gridContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 87.36%;
-	padding-left: 1.82%;
-	padding-right: 1.82%;
-}
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-
-@media only screen and (min-width: 481px) {
-.gridContainer {
-	width: 90.675%;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
-}
-
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-}
-
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 769px) {
-.gridContainer {
-	width: 98%;
-	max-width: 1232px;
-	padding-left: 1%;
-	padding-right: 1%;
-	margin: auto;
-}
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-}
+body{background-color: #f1e09e;
+	font-family:'voltaireregular';
+	font-size:24px;}
+	
+.page {width: 980px;
+		margin: 0px auto 0px auto;
+		position: relative;
+		box-shadow: 0px 1px 10px 1px rgba(83, 58, 46, 0.5);
+		-moz-box-shadow: 0px 1px 10px 1px rgba(83, 58, 46, 0.5);
+		-webkit-box-shadow: 0px 1px 10px 1px rgba(83, 58, 46, 0.5);}
+	
 @font-face {
     font-family: 'voltaireregular';
     src: url('../type/voltaire-regular-webfont.eot');
     src: url('../type/voltaire-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('../type/voltaire-regular-webfont.woff') format('woff'),
-url('../type/voltaire-regular-webfont.ttf') format('truetype'),
-url('../type/voltaire-regular-webfont.svg#voltaireregular') format('svg');
+	url('../type/voltaire-regular-webfont.woff') format('woff'),
+	url('../type/voltaire-regular-webfont.ttf') format('truetype'),
+	url('../type/voltaire-regular-webfont.svg#voltaireregular') format('svg');
     font-weight: normal;
     font-style: normal;}
 
-body{position:relative;
-	padding:0;
-	margin:0;
-	background-color: #f1e09e;
-	max-width:100%}
+
+
 	
-
-#columns {
-  position: relative;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
-  width: 100%;
-  float: left; }
-
-
-.header{margin:auto;
-		width: 100%;
-		z-index: 10}
-
-body { padding-bottom: 20px }
-#main { background: #fff; margin: auto; padding: 20px; max-width: 1200px }
-#main h1 { padding:0; margin-top: 20px }
-#main h2 { text-align: left }
-#header { background-color: #eee; font-weight: normal; margin:0; padding:10px; border-bottom: 1px solid #ddd }
-#logo { display: none }
-
-#cycler{position:relative;
-		width:100%;
-		position: relative;
-		padding:0;
-		margin:0;
-		margin-top: -10em;
-		z-index: -3;}
-
-#cycler img{position:absolute;z-index:1;background-color:white}
-#cycler img.active{z-index:3}
-
-
-.title {width:100%;
-	font-family: 'voltaireregular';
-	font-size: 6em;
-	color: white;
-	background-color: #533a2e;
-	margin-top: -1.9em;
-	text-align:center;}
-
-
-.left { width:200px;
-	line-height: 1.05em;
-	list-style: none;
-	color: white;
-	font-family: 'voltaireregular';
-	text-align: center justify;
-	font-size: 1.7em;
-	padding: 0;
-	margin: 0;
-	margin-left: 0;
-	display: inline-block;
-	float: left;
-	position: relative;
-	background-image:url('../img/left.png');}
-
-.middle {width:auto;
-		height:100%;
-		height:auto;
-		float:left;
-		position: relative;
-		margin-top: -1em}
 		
-.right {width:auto;
-		height:100%;
-		color: white;
-		padding:0;
-		margin:0;
-		float:left;
-		position:center;
-		margin-top: -2.15em}
 
-div #gold {background-color:#fdcf6e;
-			height:120px;
-			padding:0;}
+a {color:#d26743;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:1em;
+	padding: 0px 40px 0px 0px;}
+a:hover {color:#533a2e}
+	
+.about {background: url(../img/about.png) no-repeat right 0px;}
+.food {background: url(../img/food.png) no-repeat right 0px;}
+.calendar {background: url(../img/calendar.png) no-repeat right 0px;}
+.blog {background: url(../img/blog.png) no-repeat right 0px;}
 
-div #orange { background-color:#d26743;
-				height:110px;
-				padding:0;}
+.about:hover {background-position: right -50px;}
+.food:hover {background-position: right -50px;}
+.calendar:hover {background-position: right -50px;}
+.blog:hover {background-position: right -50px;}
 
-footer {float:right;
-		width: 100%;
-		display: inline-block;
-		font-family: 'voltaireregular';
-		font-size: 1.25em;
-		line-height: .5em;
-		color: white;
-		list-style: none;
-		text-align: left;
-		padding:0;
-		margin:0;
-		position: absolute;
-		bottom: 0}
 
-.footing {
-		display: inline-block;
-		list-style: none;
-		padding:0;
-		width:70%;
-		z-index: 10;
-		position: relative;
-		bottom: 0}
+
+
+
+
+

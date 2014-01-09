@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body {margin:0; padding:0}
+
+ nav {display:block;
+ 		background:#fff;
+		position:absolute;
+		width:100%;}
+
+
+/* Layout Large Screens (default for older browsers */
+
+.header{position: absolute;
+		padding:0;
+		margin:0;
+		z-index:1;
+		}
+		
+header {padding:0;
+		margin:0;
+		height:509px;}
+
+article {position:relative;
+		display:block;
+		color:#FFF;
+		background: #d26743;
+		margin:0;
+		padding:2em;
+		top:60px}
+	
+.welcome {font-size:3.5em;
+	font-family:'voltaireregular';
+	text-align:center;
+	color:#fdcf6e;
+	padding:0;
+	margin:0;}
+	
+.passion { font-size:1.5em;
+	font-family:'voltaireregular';
+	text-align:center;
+	}
+
+nav {top:509px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+	
+nav a { margin:0 0 0 9%;}
+
+footer {background:#533a2e;
+		color:#FFF;
+		text-align: center;
+		font-size:1em;
+		padding:3em;
+		margin:0;}
+
+	
