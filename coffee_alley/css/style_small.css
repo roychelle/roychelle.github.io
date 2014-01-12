@@ -42,14 +42,14 @@ article {position:relative;
 		
 p {font-size:.75em}
 	
-.welcome {font-size:1.75em;
+.welcome {font-size:1.3em;
 	font-family:'voltaireregular';
 	text-align:center;
 	color:#fdcf6e;
 	padding:0;
 	margin:0;}
 	
-.passion { font-size:.75em;
+.passion { font-size:.95em;
 	font-family:'voltaireregular';
 	text-align:center;
 	}
@@ -76,5 +76,5 @@ footer {background:#533a2e;
 		color:#FFF;
 		text-align: center;
 		font-size:.75em;
-		padding:3em;
+		padding:2em;
 		margin:0;}
