@@ -6,9 +6,9 @@
  <title>The Coffee Alley</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/style_large.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:799px)" href=css/style_large.css>
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href=css/style_medium.css>
 <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href=css/style_small.css>
-<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href=css/style_small.css>
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,7 +23,8 @@
   
        <header>
         <div class="header">
-    		<img src="img/banner.png"/> 
+    		<img  class="banner" src="img/banner.png"/> 
+            
     	</div>
         <div id="slider">
     		<div class="slide1"><img src="img/1.png" alt="counter"/></div>
