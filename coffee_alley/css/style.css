@@ -37,6 +37,16 @@ a:hover {color:#533a2e}
 .calendar:hover {background-position: right -50px;}
 .blog:hover {background-position: right -50px;}
 
+@media (max-width: 500px) { 
+.about {background: url(../img/about.png) no-repeat right 10px;}
+.food {background: url(../img/food.png) no-repeat right 10px;}
+.calendar {background: url(../img/calendar.png) no-repeat right 10px;}
+.blog {background: url(../img/blog.png) no-repeat right 10px;}
+
+.about:hover {background-position: right -40px;}
+.food:hover {background-position: right -40px;}
+.calendar:hover {background-position: right -40px;}
+.blog:hover {background-position: right -40px;}}
 
 
 
