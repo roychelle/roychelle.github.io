@@ -58,6 +58,8 @@ p {font-size:.75em}
 nav {background:#fff;
 	position:relative;}
 	
+
+	
 nav a {display:list-item;
 		padding-top:10px;
 		padding-bottom:10px;
@@ -67,9 +69,10 @@ nav a {display:list-item;
 		border:solid #533a2e 1px;
 		border-
 		-webkit-box-shadow: inset 0px 0px 15px -3px #533a2e;
--moz-box-shadow: inset 0px 0px 15px -3px #533a2e;
-box-shadow: inset 0px 0px 15px -3px #533a2e;}
-
+		-moz-box-shadow: inset 0px 0px 15px -3px #533a2e;
+		box-shadow: inset 0px 0px 15px -3px #533a2e;}
+		
+a:hover{background-color: #fdcf6e;}
 
 
 footer {background:#533a2e;
