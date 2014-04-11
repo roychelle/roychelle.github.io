@@ -1167,7 +1167,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #f37720;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -1180,7 +1180,7 @@ a {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility; }
