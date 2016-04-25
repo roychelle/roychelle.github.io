@@ -1,0 +1,105 @@
+	
+		@media screen and (min-width:1024px) {
+		.item {
+			text-align:center;
+			position:relative;			
+		}
+		
+			.item-hover,
+			.item-hover .mask,
+			.item-img,
+			.item-type-move .item-info {
+				width: 262px;
+				height: 90px;
+				margin: 0;
+			}
+
+			.item-hover,
+			.item-hover .mask,
+			.item-img {
+				position:absolute;
+				bottom:0;
+			}			
+		
+			.item-type-move .item-hover {	
+				-webkit-transition: all 300ms ease-out;
+				-moz-transition: all 300ms ease-out;
+				-o-transition: all 300ms ease-out;
+				transition: all 300ms ease-out;	
+				opacity:0;
+				cursor:pointer;		
+				z-index:100;
+			}
+			
+				.item-type-move .item-info {
+					z-index:10;
+					color:#ffffff;
+					position:relative;
+					z-index:5;
+					overflow:hidden;
+				}
+			
+				.item-type-move .item-info .headline,
+				.item-type-move .item-info .date {
+					width: 260px;
+					height: 90px;
+					position:absolute;
+					-webkit-transition: all 300ms ease-out;
+					-moz-transition: all 300ms ease-out;
+					-o-transition: all 300ms ease-out;
+					transition: all 300ms ease-out;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-o-box-sizing: border-box;
+				}				
+
+				.item-type-move .item-info .headline {
+					font-size: 14px;
+					top:0px;
+				}
+				
+				.item-type-move .item-info .date {
+					font-size: 10px;
+					font-style:italic;
+					top:45px;
+				}
+								
+				.item-type-move .item-info .line {
+					 height:1px;
+					 width:85%;
+					 margin:10px auto 0 auto;
+					 background-color:#ffffff;		 
+				}				
+				
+				.item-type-move .item-hover .mask {
+					background-color:#000;
+					opacity:0.5;
+					-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+					filter: alpha(opacity=50);					
+					z-index:0;
+				}
+				
+				.item-type-move .item-hover:hover {
+					opacity:1;
+				}				
+
+				.item-type-move .item-hover:hover .item-info .headline {
+					top:20%;
+				}				
+
+				.item-type-move .item-hover:hover .item-info .date {
+					bottom:20%;
+				}
+				
+
+				
+			.item-img {			
+				background-color:#7a548f;
+				z-index:0;			
+			}
+}
+
+
+		
+
+		
