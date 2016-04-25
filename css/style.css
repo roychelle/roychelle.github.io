@@ -279,13 +279,17 @@ p.m_2{
 	line-height:1.5em;
 }
 
+.ab-list {
+	margin:0;
+	 padding:0 !important;
+}
 .ab-list li {
     font-size: 14px;
     color: #fff;
     list-style: none;
     text-align: center;
     margin:2em 0 0 0 ;
-    padding:0 !important;
+   
 }
 .ab-list li:before{
 	margin-bottom: 20px;
