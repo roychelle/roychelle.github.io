@@ -103,6 +103,7 @@ body a{
     color: #e69b4c;
     font-weight: 900;
     margin-bottom: 0;
+    font-family:'caviar_dreamsregular';
 }
 
 span.plus {
@@ -937,7 +938,7 @@ p.m_13{
 }
 .copy p{
 	color:#536169;
-	font-size:0.85em;
+	font-size:0.8em;
 	text-decoration:none;
 	text-transform:uppercase;
 }
@@ -950,7 +951,7 @@ p.m_13{
     color: #f4f4f4;
     padding: 0;
     margin: auto;
-    width: 17.85em;
+    width: 17.05em;
 
 }
 ul.footer-nav li:first-child{
@@ -1058,6 +1059,12 @@ input#id123-control18730036 {
 }
 @media (max-width: 1024px){
 .divonecolumn.second-column.col-sm-12 {
+    padding-left: 0;
+}
+.subitem.col-lg-12.col-md-12.col-sm-12 {
+    padding-left: 0;
+}
+.subitem.col-lg-12.rowup.col-md-12.col-sm-12 {
     padding-left: 0;
 }
 
