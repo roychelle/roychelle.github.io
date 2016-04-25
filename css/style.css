@@ -284,8 +284,8 @@ p.m_2{
     color: #fff;
     list-style: none;
     text-align: center;
-    margin-top:2em;
-    padding:0;
+    margin:2em 0 0 0 ;
+    padding:0 !important;
 }
 .ab-list li:before{
 	margin-bottom: 20px;
@@ -294,19 +294,19 @@ p.m_2{
 }
 
 .education:before {
-    content: "\e233";
-    font-family: 'Glyphicons Halflings';
+    content: "\f19d" ;
+    font-family: 'FontAwesome';
 
 }
 
 .job:before {
-    content: "\e139";
-    font-family: 'Glyphicons Halflings';
+    content: "\f0b1";
+    font-family: 'FontAwesome';
 }
 
 .travel:before {
-    content: "\e108";
- font-family: 'Glyphicons Halflings';
+    content: "\f072";
+ font-family: 'FontAwesome';
 }
 .idea:before{
 content: "\f0eb";
@@ -325,12 +325,12 @@ font-family: 'FontAwesome'
 
 }
 .movies:before{
-content: "\e009";
-font-family: 'Glyphicons Halflings';
+content: "\f008";
+font-family: 'FontAwesome';
 }
 .cook:before{
-content: "\e179";
-font-family: 'Glyphicons Halflings';
+content: "\f0f5";
+font-family: 'FontAwesome';
 }
 /*--portfolio--*/
 .Portfolio1{
@@ -918,12 +918,11 @@ p.m_13{
 }
 
 	ul.footer-nav {
-   
     list-style: none;
     color: #f4f4f4;
     padding: 0;
     margin: auto;
-    width: 15em;
+    width: 17.85em;
 
 }
 ul.footer-nav li:first-child{
