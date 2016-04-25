@@ -285,6 +285,7 @@ p.m_2{
     list-style: none;
     text-align: center;
     margin-top:2em;
+    padding:0;
 }
 .ab-list li:before{
 	margin-bottom: 20px;
@@ -922,7 +923,7 @@ p.m_13{
     color: #f4f4f4;
     padding: 0;
     margin: auto;
-    width: 19.65em;
+    width: 15em;
 
 }
 ul.footer-nav li:first-child{
@@ -930,7 +931,7 @@ ul.footer-nav li:first-child{
 }
 ul.footer-nav li{
 	display:inline-block;
-	margin:0 10px;
+	margin:0 .4em;
 }
 ul.footer-nav li a{
 	color: #999;
