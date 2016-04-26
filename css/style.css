@@ -938,7 +938,7 @@ p.m_13{
 }
 .copy p{
 	color:#536169;
-	font-size:0.8em;
+	font-size:0.85em;
 	text-decoration:none;
 	text-transform:uppercase;
 }
@@ -963,7 +963,7 @@ ul.footer-nav li{
 }
 ul.footer-nav li a{
 	color: #999;
-	font-size:0.85em;
+	font-size:0.8em;
 	font-weight:500;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -1062,10 +1062,10 @@ input#id123-control18730036 {
     padding-left: 0;
 }
 .subitem.col-lg-12.col-md-12.col-sm-12 {
-    padding-left: 0;
+    padding-left: 15px;
 }
 .subitem.col-lg-12.rowup.col-md-12.col-sm-12 {
-    padding-left: 0;
+    padding-left: 15px;
 }
 
 }
