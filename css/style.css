@@ -148,7 +148,7 @@ span.plus {
 }
 .toggleMenu {
     display:  none;
-  	padding: 5px 0px 0px 0px;
+  	padding: 15px 0px 0px 0px;
 }
 .nav:before,
 .nav:after {
@@ -174,24 +174,31 @@ span.plus {
     	-o-border-radius:0;
     }
     .nav {
-        list-style: none;
-    width: 96%;
+    list-style: none;
+    width: 100%;
     position: absolute;
-    right: 15px;
-    background: #fff;
-    top: 74px;
+    background: rgba(255, 255, 255, 0.97);
+    top: 68px;
     z-index: 111;
-}
-}
-    .nav:after {
-		content: '';
-    position: absolute;
-    right: 2px;
-    top: -15px;
-    border-left: 15px solid rgba(0, 0, 0, 0);
-    border-right: 15px solid rgba(0, 0, 0, 0);
-    border-bottom: 15px solid rgba(255, 255, 255, 1);
+    right: 0;
 	}
+
+	#nav a {
+    color: #e69b4c;
+}
+
+	#nav a:hover {
+    background: transparent;
+}
+    /*.nav:after {
+		content: '';
+		position: absolute;
+		right:8px;
+		top: -9px;
+		border-left:10px solid rgba(0, 0, 0, 0);
+		border-right:10px solid rgba(0, 0, 0, 0);
+		border-bottom:10px solid rgba(73, 84, 91, 0.87);
+	}*/
     .menu li a span.messages{
     	text-align:center;
     	top:15px;
@@ -217,7 +224,7 @@ span.plus {
         position: static;
     }
     .nav li a{
-    	border-top:1px solid rgba(73, 84, 91, 0.87);
+    	border-top:1px solid #e69b4c;
     }
      .nav li:first-child a{
      	border-top:none;
