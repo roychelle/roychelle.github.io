@@ -1062,10 +1062,12 @@ input#id123-control18730036 {
     padding-left: 0;
 }
 .subitem.col-lg-12.col-md-12.col-sm-12 {
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 0;
 }
 .subitem.col-lg-12.rowup.col-md-12.col-sm-12 {
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 0;
 }
 
 }
