@@ -774,7 +774,7 @@ p.m_11 {
 	line-height: 1.8em;
 }
 .social {
-    width: 11.05em;
+    width: 40%;
     margin: auto;
     padding: 0;
 }
@@ -785,7 +785,16 @@ p.m_11 {
     width: 40px;
     display: inline-block;
     padding:5px;
+    cursor: pointer;
+    margin:6.4%;
    }
+
+   .social li a {
+    width: 100%;
+    display: block;
+    height: 25px;
+    color: transparent;
+}
 
  .social li:hover {
    background-size: 42px;
