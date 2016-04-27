@@ -14,7 +14,15 @@ $(document).ready(function() {
 		$(".nav").toggle();
 	});
 	adjustMenu();
+	
+	$(".nav li a").click(function(e) {
+		$(".toggleMenu").toggleClass("active");
+		$(".nav").toggle();
+	});
+	adjustMenu();
+
 })
+
 
 $(window).bind('resize orientationchange', function() {
 	ww = document.body.clientWidth;

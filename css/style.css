@@ -774,32 +774,38 @@ p.m_11 {
 	line-height: 1.8em;
 }
 .social {
-    width: 40%;
-    margin: auto;
-    padding: 0;
-}
-
- .social li {
-   background-size: 40px;
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    padding:5px;
-    cursor: pointer;
-    margin:6.4%;
-   }
-
-   .social li a {
-    width: 100%;
+    list-style: none;
     display: block;
-    height: 25px;
-    color: transparent;
+    padding: 0 !important;
+    margin:auto;
+    width: 50%;
 }
 
- .social li:hover {
-   background-size: 42px;
+.social li {
     display: inline-block;
+    width: 23%;
+    margin: auto;
+}
+
+ .social li a {
+   background-size: 40px;
+   height: 40px;
+   width: 40px;
+   display: block;
+   cursor: pointer;
+   margin: auto;
    }
+
+
+ .social li a:hover {
+   background-size: 40px;
+    display: block;
+   }
+@media (max-width: 1024px){
+	.social {
+    width: 100%;
+}
+}
 
 .email{
 	background: url(../images/email.png)no-repeat top ;
