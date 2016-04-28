@@ -253,9 +253,9 @@ span.plus {
 	margin: 0 auto;
 }
 /*--About Me--*/
-.services{
+.about{
 	background:#e69b4c;
-	padding:6% 0;
+	padding:10% 0;
 }
 .pursuit, .purpose , .passions{
 	display:inline-block;
@@ -441,7 +441,7 @@ span.portfolio_line {
 /*-----------------------------------------------------------------------------------*/
 			
 			div#resume {
-    padding: 15% 0;
+    padding: 20% 0;
 }
 
 .resume {
@@ -852,7 +852,7 @@ span.m_13{
 	background-size: cover;
 	background-position: center;
 	background-size: 100% 100%;
-	padding: 6% 0;
+	padding: 10% 0;
 }
 .commentform label, .contactform_bottom label {
 	display: block;
