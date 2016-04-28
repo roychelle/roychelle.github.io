@@ -56,6 +56,11 @@ body a{
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
+
+a:focus {
+    outline: none;
+}
+
 .header{
 	width: 100%;
 	background: #f4f4f4;
@@ -626,6 +631,7 @@ padding:1%;
 
 .fancybox {
     margin-bottom: 30px;
+    padding-bottom:0;
 }
 
 /* project title under image */
@@ -1025,6 +1031,7 @@ box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.6);
     width: 13.2em;
     display: block;
     color: #333;
+    white-space: nowrap;
 }
 
 .download:hover {
