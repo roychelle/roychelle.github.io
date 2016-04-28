@@ -73,27 +73,7 @@
 
 	        <div class="clear"></div>
 
-	        <script type="text/javascript" src="js/responsive-nav.js"></script>
-
-			<script type="text/javascript" src="js/move-top.js"></script>
-
-			<script type="text/javascript" src="js/easing.js"></script>
-
-			   <script type="text/javascript">
-
-					jQuery(document).ready(function($) {
-
-						$(".scroll").click(function(event){		
-
-							event.preventDefault();
-
-							$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-
-						});
-
-					});
-
-				</script>
+	        
 
 		   </div>
 
@@ -216,7 +196,7 @@
 
 					<li class="education"> Combining my love for Art and Biology into a career, I received a Master's in Landscape Architecture at Louisiana State University .</li>
 
-					<li class="job">I got my first "real" job at Mia Lehrer + Associates, which allowed me to  move to Los Angeles.</li>
+					<li class="job">I got my first job as a designer at Mia Lehrer + Associates, which allowed me to  move to Los Angeles.</li>
 
 					<li class="job">When an opportunity at Hoerr Schaudt Landscape Architects,  I  moved to Chicago where I have been for 9 years.</li>
 					</ul>
@@ -254,7 +234,7 @@
 
 						<li class="movies">I love watching movies and can usually guess most of the major Oscar winners correctly each year. This makes me very useful in an office pool. </li>
 
-						<li class="cook">Equally, I love to cook and enjoy learning to prepare different cuisines and hosting dinner parties for family and friends. Jamaican food is of course my favorite.</li>
+						<li class="cook">Another favorite is cooking. I really enjoy learning to prepare different cuisines and hosting dinner parties for family and friends. Jamaican food is of course my speciality.</li>
 
 				</ul>
 
@@ -502,6 +482,30 @@ js_cobject_arr['cid18730038']=0;
 		 <!--sticky header-->
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
+ 		<!--navigation and scroll-->
+		<script type="text/javascript" src="js/responsive-nav.js"></script>
+
+			<script type="text/javascript" src="js/move-top.js"></script>
+
+			<script type="text/javascript" src="js/easing.js"></script>
+
+			   <script type="text/javascript">
+
+					jQuery(document).ready(function($) {
+
+						$(".scroll").click(function(event){		
+
+							event.preventDefault();
+
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+
+						});
+
+					});
+
+				</script>
+<!--scroll navigation-->
+	    <script src="js/scrollnav.js"></script>
 		<!--portfolio-->
 		<script src="js/jquery.fancybox.pack.js"></script>
 		<script src="js/fancybox-buttons.js"></script>
@@ -593,6 +597,7 @@ jQuery(function($){
     
 });        
 </script>
+
 		 
 
 </body>

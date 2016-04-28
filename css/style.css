@@ -101,7 +101,6 @@ body a{
 
 .job_title {
     color: #e69b4c;
-    font-weight: 900;
     margin-bottom: 0;
     font-family:'caviar_dreamsregular';
 }
@@ -133,7 +132,6 @@ span.plus {
   	-moz-transition: all 0.3s ease;
   	-o-transition: all 0.3s ease;
   	transition: all 0.3s ease;
-  	font-weight: 600;
   	margin: 0 !important;
  }
  .menu li a:hover {
@@ -300,7 +298,6 @@ h3.m_1{
 	color: #FFF;
 	font-size: 1.7em;
 	text-transform: uppercase;
-	font-weight:400;
 	margin: 5% 0;
 	text-align: center;
 }
@@ -430,7 +427,6 @@ span.portfolio_line {
     text-decoration: none;
     cursor: pointer;
     font-size: .85em;
-    font-weight: 500;
     display: inline-block;
     color: #333;
     float: left;
@@ -460,7 +456,6 @@ span.portfolio_line {
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	font-weight: 300;
 	overflow:hidden;
 }
 .b-link-stripe .b-wrapper{
@@ -682,7 +677,6 @@ padding:1%;
 	-webkit-transition: all 0.5s;
 	visibility: hidden;
 	font-size:1.1em;
-	font-weight:700;
 }
 .b-animate img{
 	margin-top:38%;
@@ -759,7 +753,7 @@ p.m_9{
 	color:#fff;
 	font-size:1.5em;
 	margin-top:2%;
-	font-weight:300;
+	
 }
 
 p.m_10 {
@@ -773,18 +767,19 @@ p.m_11 {
 	font-size: 15px;
 	line-height: 1.8em;
 }
+
 .social {
     list-style: none;
     display: block;
     padding: 0 !important;
     margin:auto;
-    width: 50%;
+    width: 350px;
 }
 
 .social li {
     display: inline-block;
-    width: 23%;
-    margin: auto;
+    width: 25%;
+    float: left;
 }
 
  .social li a {
@@ -801,11 +796,8 @@ p.m_11 {
    background-size: 40px;
     display: block;
    }
-@media (max-width: 1024px){
-	.social {
-    width: 100%;
-}
-}
+
+
 
 .email{
 	background: url(../images/email.png)no-repeat top ;
@@ -843,12 +835,10 @@ p.m_12{
 	color:#555;
 	font-size: 1.5em;
 	margin:3% 0;
-	font-weight:300;
 }
 span.m_13{
 	color: #E69B4C;
 	font-size: 0.95em;
-	font-weight: 500;
 }
 /*--contact--*/
 .contact{
@@ -869,7 +859,6 @@ span.m_13{
 	font-size:0.95em;
 	color: #fff;
 	text-transform:uppercase;
-	font-weight:400;
 }
 .commentform input[type="text"] {
 	padding:20px;
@@ -937,7 +926,6 @@ p.m_13{
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	font-weight: 500;
 	border: none;
 	cursor: pointer;
 	outline: none;
@@ -987,7 +975,6 @@ ul.footer-nav li{
 ul.footer-nav li a{
 	color: #999;
 	font-size:0.8em;
-	font-weight:500;
 	text-decoration:none;
 	text-transform:uppercase;
 }

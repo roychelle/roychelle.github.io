@@ -1,0 +1,602 @@
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Roychelle Rowden</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+<link href="css/normalize.css" rel='stylesheet' type='text/css' />
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+<link href="css/123form.css" rel='stylesheet' type='text/css' />
+
+
+<link href="css/jquery.fancybox.css" rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+<script src="js/jquery-1.9.1.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<!--start header-->
+
+	<div class="header">
+
+	  <div class="header-top">
+
+		<div class="container">
+		
+
+			<div class="logo">
+
+			  <a href="index.html"><img src="images/logo.png" alt=""/></a>
+
+			</div>
+			<div class="page-title">
+			  		<h3 class="my_name">Roychelle Rowden</h3>
+			  		<h5 class="job_title">Visual <span class="plus">+</span> User Interface Designer</h5>
+			  	</div>
+
+			<div id="menu" class="menu">
+
+			  <a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="toggle-menu" /></a>
+
+				<ul id="nav" class="nav" >
+
+				   <li ><a href="#work">Work</a></li>
+
+				   <li><a href="#about">About Me</a></li>
+
+				   	<li><a href="#resume">Resume</a></li>
+
+				   <li><a href="#contact">Contact</a></li>								
+
+			    </ul>
+
+			</div>							
+
+	        <div class="clear"></div>
+
+	        <script type="text/javascript" src="js/responsive-nav.js"></script>
+
+			<script type="text/javascript" src="js/move-top.js"></script>
+
+			<script type="text/javascript" src="js/easing.js"></script>
+
+			   <script type="text/javascript">
+
+					jQuery(document).ready(function($) {
+
+						$(".scroll").click(function(event){		
+
+							event.preventDefault();
+
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+
+						});
+
+					});
+
+				</script>
+
+		   </div>
+
+		 </div>
+
+</div>
+	<!--end header-->
+	<!--start portfolio-->
+	 
+	<div class="Portfolio1" id="work">
+
+			    <div class="portfolio_top container">
+
+					<div class="portfolio_left">
+
+					  <h4 class="m_5">Portfolio</h4>
+
+					</div>
+					<div id="galleryTab" class="cf">
+  						<a data-rel="all" href="javascript:;" class="filter active">All</a>
+  						<a data-rel="web" href="javascript:;" class="filter">Web</a>
+  						<a data-rel="graphic" href="javascript:;" class="filter">Graphic</a>
+  						<a data-rel="landscape" href="javascript:;" class="filter">Landscape</a>
+  
+  					</div>
+					
+					</div>
+						
+					<div class=" container galleryWrap " id="portfoliolist">
+				
+					
+					
+			<!--Portfolio Item 1-->
+						<a class="col-sm-4 col-xs-12 col-md-3 col-lg-3 fancybox item item-type-move "  href="images/coffee_alley_full.png" data-fancybox-group="gallery" data-filter="web" title="Local coffee shop responsive interface design for various devices.">
+           				  <img src="images/coffee_alley_hover.png" alt="Coffee Alley" title="Coffee Alley" class="overlay desktop"/>
+           				  <img src="images/coffee_alley_mobile.png" alt="Coffee Alley" class="mobile" />
+                          	<span class="mobile">Local coffee shop responsive interface design for various devices.</span>
+                        </a>
+					
+             <!--Portfolio Item 2-->
+						<a  class="col-sm-4 col-xs-12 col-md-3 col-lg-3 item item-type-move fancybox "  data-fancybox-group="gallery" data-filter="web"  href="images/ciq_full.png"  title="Interface Designs for ClassroomIQ, an application which helps teachers grade papers faster and more efficiently." >
+						    <img title="Classroom IQ Prototypes"  alt="Classroom IQ" class="overlay desktop" src="images/ciq_hover.png" />
+                          	<img src="images/ciq_mobile.png" alt="Classroom IQ" class="mobile" />
+                          	<span class="mobile">Interface Designs for ClassroomIQ, an application which helps teachers grade papers faster and more efficiently.</span>	
+                         </a>
+
+            <!--Portfolio Item 3-->
+
+            <a class="col-sm-4 col-xs-12 col-md-3 col-lg-3 fancybox item item-type-move"  href="images/nw_full.png" data-fancybox-group="gallery" data-filter="landscape" title="Proposed landscape design for new building design by KPMB Architects and landscape by Hoerr Schaudt Landscape Architects.">
+						 <img  title="Northwestern Kellogg School of Business" alt="Northwestern Kellogg" class="overlay desktop" src="images/nw_hover.png"/>
+						  <img src="images/nw_mobile.png" alt="Northwestern Kellogg School of Business" class="mobile" />
+                          	<span class="mobile">Proposed landscape design for new building design by KPMB Architects and landscape by Hoerr Schaudt Landscape Architects.</span>	
+                        </a>
+                           
+			<!--Portfolio Item 4-->
+						<a class="col-sm-4 col-xs-12 col-md-3 col-lg-3 fancybox item item-type-move"  data-fancybox-group="gallery" data-filter="graphic"  href="images/telcomsp_full.png" title="Logo design options for a telecommunications company.">
+              			 <img  title="TelecoMSP Logo Designs" alt="TelecoMSP Logo" class="overlay desktop" src="images/telcomsp_hover.png"/>
+              			 <img src="images/telcomsp_mobile.png" alt="TelecoMSP Logo" class="mobile" />
+                          	<span class="mobile">Logo design options for a telecommunications company.</span>
+                        </a>
+                        
+            <!--Portfolio Item 5-->
+           				 <a class="col-sm-4 col-xs-12 col-md-3 col-lg-3 fancybox item item-type-move "  href="images/summon_full.png" data-fancybox-group="gallery" data-filter="web" title="Splash page and interface design for mobile application.">
+           				  <img src="images/summon_hover.png" alt="Summon" title="Summon" class="overlay desktop"/>
+           				  <img src="images/summon_mobile.png" alt="Summon App" class="mobile" />
+                          	<span class="mobile">Splash page and interface design for mobile application.</span>
+                          </a>
+
+              <!--Portfolio Item 6-->
+						<a  class="col-sm-4 col-xs-12 col-md-3 col-lg-3  fancybox item item-type-move"  href="images/wedding_travel_full.png" data-fancybox-group="gallery" data-filter="graphic" title="Infographic documenting my wedding and honeymoon journey in 2015.">
+						 <img src="images/wedding_travel_hover.png" alt="" title="Wedding Infographic" class="overlay desktop"/>
+						 <img src="images/wedding_travel_mobile.png" alt="Wedding Infographic" class="mobile" />
+                          	<span class="mobile">Infographic documenting my wedding and honeymoon journey in 2015.</span>	
+                          </a>
+            <!--Portfolio Item 7-->
+              
+              			<a class="col-sm-4 col-xs-12 col-md-3 col-lg-3 fancybox item item-type-move"  href="images/springleaf_full.png" data-fancybox-group="gallery" data-filter="web" title="Prototype for Springleaf Financial Service's location search interface.">
+           				  <img src="images/springleaf_hover.png" alt="Springleaf" title="Springleaf Financial" class="overlay desktop"/>
+           				  <img src="images/springleaf_mobile.png" alt="Springleaf Financial" class="mobile" />
+                          	<span class="mobile">Prototype for Springleaf Financial Service's location search interface.</span>	
+                        </a>
+                           
+			<!--Portfolio Item 8-->
+
+				<a class="col-sm-4 col-xs-12 col-md-3 col-lg-3  fancybox item item-type-move"   href="images/bradley_full.png" data-fancybox-group="gallery" data-filter="landscape" title="Seasonal renderings for a Bradley University landscape design by Hoerr Schaudt Landscape Architects.">
+              			 	<img src="images/bradley_hover.png" alt="" title="Bradley University Alumni Quadrangle" class="overlay desktop"/>
+              			 	<img src="images/bradley_mobile.png" alt="Bradley University" class="mobile" />
+                          	<span class="mobile">Seasonal renderings for a Bradley University landscape design by Hoerr Schaudt Landscape Architects.</span>
+                        </a>
+						
+                        
+           				 
+            
+		 	 </div>
+		 	
+		 	
+
+		   </div>
+
+
+	   <!--end portfolio-->
+	    
+
+	<!--start about me-->
+
+	<div class="services" id="about">
+
+		<div class="container">
+
+
+				<h4 class="m_5">About Me</h4>
+
+				<div class="col-md-4 top_grid">
+
+					<div class="row pursuit"> </div>
+
+					<ul class="ab-list"> 
+
+					<li class="education">I left Jamaica for Galesburg, IL to attend Knox College for a degree in Studio Art & Biology.</li>
+
+					<li class="education"> Combining my love for Art and Biology into a career, I received a Master's in Landscape Architecture at Louisiana State University .</li>
+
+					<li class="job">I got my first "real" job at Mia Lehrer + Associates, which allowed me to  move to Los Angeles.</li>
+
+					<li class="job">When an opportunity at Hoerr Schaudt Landscape Architects,  I  moved to Chicago where I have been for 9 years.</li>
+					</ul>
+
+				</div>
+
+				<div class="col-md-4 top_grid">
+
+					<div class="row purpose"> </div>
+
+
+					<ul class="ab-list">
+ 
+
+						<li class="direction">After 2008s recession as many colleagues faced layoffs, I began to consider making a pivot in my career. </li>
+
+						<li class="goal">My goal was to find a  fulfilling and secure career where I can be challenged to solve problems creatively.</li>
+
+						<li class="education">2013 I took a leap of faith and joined Startup Institute's program for Product Design. </li>
+
+						<li class="job">I am currently a Visual User Interface Designer on a small team since 2014. This adds to my  10 years as a designer on collaborative teams. </li>
+				</ul>
+
+				</div>
+
+				<div class="col-md-4 top_grid">
+
+					<div class="passions"> </div>
+
+					<ul class="ab-list">
+ 
+
+						<li class="travel">Travel is a true passion mine, in 2015 my husband and I visited 14 cities including: 
+						Montego Bay (Jamaica) , Casablanca, Fez, Marrakesh (Morocco) Giza, Memphis, Cairo, Alexandria (Egypt), Austin, Philadelphia, Phoenix, Washington D.C , San Francisco and Fort Lauderdale (USA). (All overseas travel occurred during our wedding and honeymoon). </li>
+
+						<li class="movies">I love watching movies and can usually guess most of the major Oscar winners correctly each year. This makes me very useful in an office pool. </li>
+
+						<li class="cook">Equally, I love to cook and enjoy learning to prepare different cuisines and hosting dinner parties for family and friends. Jamaican food is of course my favorite.</li>
+
+				</ul>
+
+
+				</div>
+
+				
+
+		</div>
+
+	 </div>
+
+	 <!--end about me-->
+
+	
+
+	   <!--start resume-->
+
+	   <div class="resume" id="resume">
+
+	   	<div class="container">
+
+
+	   			<a class="download" href="resume/resume.pdf" download="rrowden_resume.pdf">Download Resume</a>
+
+	   	</div>
+
+	   </div>
+
+	   <!--end resume-->
+		
+		<!--start contact-->
+
+	  <div class="contact" id="contact">
+
+	  	<div class="container">
+
+
+	  			<h4 class="m_5">Contact</h4>
+
+<!-- www.123contactform.com script begins here -->
+
+
+
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/modules/calculations/form/js/form.calculations.js.minified.js?72255e4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+<!--
+var tr_parents=[];
+var formrules=new Array(0);
+
+//-->
+</script>
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/includes/interactive123cf.js.minified.js?72255e4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/libraries/select2/select2.min.js.minified.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/libraries/select2/select2-simple.js?72255e4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/libraries/datepicker/bootstrap-datepicker.js.minified.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + cfJsHost + "www.123contactform.com/modules/weebly/js/weebly.js.minified.js?72255e4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	var fid=1935711;
+	var curr='%26%2336%3B';
+	var preview_iframe=0;
+	var real_time=0;
+	</script>
+
+<script type="text/javascript">
+<!--
+var selectedfield='';
+var multiPageCurent=1;
+var multiPageTotal=1;
+function InputActions(field,id) {
+	window.stopCalculate=true;
+	var textcolor='';
+	var hltextcolor='#333333';
+	$('.class123-labelhidden:not(.hidden_instruction)').addClass('hidden_instruction');
+	if (!(($(field).prop('tagName') =='INPUT') && (($(field).prop('type')=="text") || ($(field).prop('type')=="password")) ))
+		if ($(field).prop('tagName') !='TEXTAREA')
+			remove_field_error(field);
+
+	$(field).parents('.fieldcontainer').last().find('.hidden_instruction').removeClass('hidden_instruction');
+	//var calendar = $('img[title="Close Calendar"]').trigger('click');
+
+	 lastactionobj=field;
+
+	if (id==selectedfield) { /* alert('do nothing'); */	}
+
+	// now the field rules
+	
+	InputRules2('beginning','0','0');
+}
+
+//-->
+</script><form  class="form js-form" action="http://www.123contactform.com/form-1935711/Contact-Lead-Form" id="mainform123" method="post" name="mainform123" enctype="multipart/form-data" novalidate>
+<input type="hidden" name="action" value="verify"/>
+<input type="hidden" size="30" name="viewformr" id="viewformr" value="cfr_1461421844.9966" />
+<input type="hidden" name="f_autoresponder" id="f_autoresponder" value="0"/>
+<input type="hidden" name="special_autoresponder" id="special_autoresponder" value=""/>
+<input type="hidden" id="language" name="language" value="en"/><input type="hidden" id="language-changed" name="languageChanged" value="no"/><div class="class123_maintable  form-top-aligned form-top-aligned container-normal" style="" >
+<script type='text/javascript'>
+var  js_ctype_arr = new Array();
+var  js_cobject_arr = new Array();
+js_ctype_arr['cid18730036']=0;
+js_cobject_arr['cid18730036']=0;
+js_ctype_arr['cid18730037']=0;
+js_cobject_arr['cid18730037']=0;
+js_ctype_arr['cid18730038']=1;
+js_cobject_arr['cid18730038']=0;
+
+</script>
+<!-- Column One begins (aux) -->
+<div><div class='divonecolumn col-md-4 col-lg-4 col-sm-12'>
+
+<!-- Column One InnerTable begins (aux) -->
+<div class="columntable no-border-top" cellpading="6" cellspacing="0" border="0">
+<!-- fieldcontainer -->
+<div id="fieldcontainer1" class="fieldcontainer currentPage1 currentPageActive  fieldwidth100      "  style="  ">
+<div id="row1" class="fieldtype-0-0 row row-fluid currentPage1 currentPageActive">
+<div class="subitem col-lg-12 rowup col-md-12 col-sm-12">
+<label class="class123-label class123-fieldname " id="id123-title18730036" for="id123-control18730036" >Name:</label></div></div>
+<div id="rowsec1" class="fieldcontainer rowdown currentPage1 currentPageActive">
+<div class="row rowdownsmall align-left"><input type="hidden" id="errorflagrow1" value=""/><div class="control-row" ><div class="subitem col-lg-12 col-md-12 col-sm-12"><input id="id123-control18730036" name="control18730036"     onclick=" InputActions(this,'row1');" onkeyup=" InputActions(this,'row1');  " onchange="InputRules(18730036); ;  " type="text" value="" style="width:100%; padding:10px; border-radius:5px; border:none;" /></div></div></div></div>
+</div>
+<!-- fieldcontainer ends -->
+
+<!-- fieldcontainer -->
+<div id="fieldcontainer2" class="fieldcontainer currentPage1 currentPageActive  fieldwidth100      "  style="  ">
+<div id="row2" class="fieldtype-0-0 row row-fluid currentPage1 currentPageActive">
+<div class="subitem col-lg-12 rowup col-md-12 col-sm-12">
+<label class="class123-label class123-fieldname" id="id123-title18730037" for="id123-control18730037" >Email:</label></div></div>
+<div id="rowsec2" class="fieldcontainer rowdown currentPage1 currentPageActive">
+<div class="row rowdownsmall align-left"><input type="hidden" id="errorflagrow2" value=""/><div class="control-row" ><div class="subitem col-lg-12 col-md-12 col-sm-12"><input id="id123-control18730037" name="control18730037"     onclick=" InputActions(this,'row2');" onkeyup=" InputActions(this,'row2');  " onchange="InputRules(18730037); ;  " type="email" value="" style="width: 100%; padding:10px; border-radius:5px; border:none;" /></div></div></div></div>
+</div>
+<!-- fieldcontainer ends -->
+
+</div>
+<!-- Column One InnerTable ends -->
+
+</div>
+<!-- Column One ends -->
+
+<!-- Column Two begins (aux)-->
+<div class='divonecolumn second-column col-md-8 col-lg-8 col-sm-12'>
+
+<!-- Column Two InnerTable begins (aux) -->
+<div class="columntable no-border-top" cellpading="6" cellspacing="0" border="0">
+<!-- fieldcontainer -->
+<div id="fieldcontainer3" class="fieldcontainer currentPage1 currentPageActive  fieldwidth100      "  style="  ">
+<div id="row3" class="fieldtype-1-0 row row-fluid currentPage1 currentPageActive">
+<div class="subitem col-lg-12 rowup col-md-12 col-sm-12">
+<label class="class123-label class123-fieldname " id="id123-title18730038" for="id123-control18730038" >Message:</label></div></div>
+<div id="rowsec3" class="fieldcontainer rowdown currentPage1 currentPageActive">
+<div class="row rowdownsmall align-left"><input type="hidden" id="errorflagrow3" value=""/><div class="control-row"><div class="subitem col-lg-12 col-md-12 col-sm-12"><div class="textarea-container force_block"><textarea id="id123-control18730038" name="control18730038" onclick=" InputActions(this,'row3');" onkeyup=" InputActions(this,'row3');  " onchange="InputRules(18730038); ;  " rows="5" style=" width: 100%;border-radius: 5px; border:none;padding: 14px;"></textarea></div></div><div class="clear"></div></div></div></div>
+</div>
+<!-- fieldcontainer ends -->
+
+<script type="text/javascript"> var f_fixedamount='0';
+	var nr_fields=3;
+	this.nr_fields=nr_fields;
+	this.form_is_quiz='';
+	var calc_fields=0;
+	</script>
+</div>
+<!-- Column Two InnerTable ends -->
+
+</div></div>
+<!-- Column Two ends -->
+<div class="row"><div class="subitem col-lg-12 col-md-12 col-sm-12"><div id="checkout_form_con"></div></div></div>
+<!-- Buttons begin here -->
+<div id="fieldcontainer4" class="fieldcontainer thebuttons" style="">
+<div class="row currentPage1 currentPageActive"><div class="subitem col-lg-12 rowup row-fluid align-center col-md-12 col-sm-12"><input type="hidden" name="go_back_and_edit" id="go_back_and_edit" value="0" /><button OnClick="  this.style.display='none'; insertPleaseWaitDiv(this,'Please wait...');  " type="submit" class="btn submit-btn formdefaultbut"  style="" id="id123-button-send"  value="Send">Send</button> 
+</div></div>
+</div> 
+<div class="clear"></div></div>
+<!-- fieldcontainer ends -->
+<!-- Buttons end here -->
+<input type="hidden" name="PHPSESSID" value="tretjiqm63qruq9bj6u2fcgvd2"/>
+<div class="spam-trap">
+<input type="text" name="email"/>
+</div>
+
+		
+		<input type="hidden" name="hiddenfields" id="hiddenfields" value=""/>
+		<input type="hidden" name="hiddenfields_pages" id="hiddenfields_pages" value=""/>
+		<input type="hidden" name="activepage" id="activepage" value="1"/>
+		<input type="hidden" name="totalpages" id="totalpages" value="1"/>
+		<input type="hidden" name="nextpagenr" id="nextpagenr" value="2"/>
+		<input type="hidden" name="prevpagenr" id="prevpagenr" value="0"/>
+		<script type="text/javascript">
+		InputRules('firsttime')
+		</script><input type="hidden" name="usage" value="e"/>
+</form>
+
+<div class="clear"></div>
+<script type="text/javascript">window.date_piker_extra_height = false;</script>
+<!-- www.123contactform.com script ends here -->
+
+
+	  	   </div>
+
+	  </div>
+	 
+	  <!--footer-->
+	 <footer class="footer-bottom">
+	 <div class="container">
+                <ul class="social">
+                    <li><a  class="email" href="mailto:roychellerowden@gmail.com" target="_blank"></a></li>
+                    <li ><a class="linkedin" href="https://www.linkedin.com/in/roychelle-rowden-lindo-6a3a36b" target="_blank"></a></li>
+	  				<li ><a class="behance" class="behance"href="https://www.behance.net/roychelle" target="_blank"></a></li>
+	  				<li ><a class="twitter" href="https://mobile.twitter.com/roychellel" target="_blank"></a></li>
+                </ul>
+                <p>© 2016 - All rights reserved | Roychelle Rowden</p>
+                   
+             </div>
+	 <div class="clear"></div>
+
+	  	</div>
+
+	  </footer>
+
+<!--scroll navigation-->
+	    <script src="js/scrollnav.js"></script>
+
+		 <!--sticky header-->
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<!--portfolio-->
+		<script src="js/jquery.fancybox.pack.js"></script>
+		<script src="js/fancybox-buttons.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+ <script type="text/javascript">
+jQuery(function($){
+  // The Fancybox script
+  $(document).ready(function () {
+    $(".fancybox")
+        .attr('rel', 'gallery')
+        .fancybox({
+        padding: 1,
+        margin: [20, 20, 50, 20],
+        autoResize: true,
+        autoWidth: true,
+        fitToView: true,
+        nextEffect: 'fade',
+        prevEffect: 'fade'
+
+
+    });
+});
+  // The category selector jQuery script
+  $(".filter").on("click", function () {
+    var $this = $(this);
+    // if we click the active tab, do nothing
+    if (!$this.hasClass("active")) {
+      $(".filter").removeClass("active");
+      $this.addClass("active"); // set the active tab
+      var $filter = $this.data("rel"); // get the data-rel value from selected tab and set as filter
+      $filter == 'all' ? // if we select "view all", return to initial settings and show all
+        $(".fancybox").attr("data-fancybox-group", "gallery").not(":visible").fadeIn() 
+        : // otherwise
+        $(".fancybox").fadeOut(0).filter(function () { 
+          return $(this).data("filter") == $filter; // set data-filter value as the data-rel value of selected tab
+        }).attr("data-fancybox-group", $filter).fadeIn(1000); // set data-fancybox-group and show filtered elements
+    } // if
+  }); // on
+}); // ready
+</script>
+		<script src="js/main.js"></script>
+		
+		   <script src="js/jquery.mixitup.min.js"></script>
+	     <script type="text/javascript">
+
+	    $(function () {
+    
+    var filterList = {
+    
+        init: function () {
+        
+            // MixItUp plugin
+            // http://mixitup.io
+            $('#portfoliolist').mixitup({
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
+                effects: ['fade'],
+                easing: 'snap',
+                // call the hover effect
+                onMixEnd: filterList.hoverEffect()
+            });                
+        
+        },
+        
+        hoverEffect: function () {
+        
+            // Simple parallax effect
+            $('#portfoliolist .portfolio').hover(
+                function () {
+                    $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                    $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');                
+                },
+                function () {
+                    $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                    $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');                                
+                }        
+            );                
+        
+        }
+    };
+    
+    // Run the show!
+    filterList.init();
+    
+});        
+</script>
+		 
+
+</body>
+
+</html>
