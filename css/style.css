@@ -1416,4 +1416,73 @@ span.mobile{
 	text-align: justify;
 }
 
+#print{
+   	display:none;
+   }
+/*Print Styles*/
+
+@media print and (color) {
+
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+
+     body {
+  -webkit-print-color-adjust: exact;
+ 
+
+}
+
+@page{
+size:8.27in 11.69in; 
+margin:.5in .5in .5in .5in; 
+mso-header-margin:.5in; 
+mso-footer-margin:.5in; 
+mso-paper-source:0;
+}
+
+
+ a[href]:after{
+        content:"";
+    }
+ a[href]:before{
+        content:"";
+   }
+
+    #menu, #galleryTab, #contact, .footer-bottom,#about , #resume, #work, .logo{
+        display:none !important;
+    }
+
+   #print{
+   	display:block;
+   }
+
+  .m_5{
+  	margin-bottom: .65in !important;
+  	page-break-before: always !important;
+  }
+  .m_5.top{
+  	page-break-before: avoid !important;
+  	margin-top:.5in;
+  }
+
+    .mobile{
+  	margin-bottom: .25in !important;
+  }
+  .break{
+  	page-break-after: always !important;
+  }
+  .page-title, .my_name {
+    margin: 0 !important ;
+}
+.container{
+	padding:0 !important;
+}
+
+}
+
+
+
+
 
