@@ -314,13 +314,14 @@ p.m_2{
 
 .ab-list {
 	margin:0;
-	 padding:0 !important;
+	 padding:2em !important;
 }
 .ab-list li {
     font-size: 16px;
-    color: #fff;
+    font-weight: 900;
+    color: #333;
     list-style: none;
-    text-align: center;
+    text-align: left;
     margin:2em 0 0 0 ;
 
 
@@ -329,6 +330,7 @@ p.m_2{
 	margin-bottom: 20px;
     display: block;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .education:before {
@@ -784,7 +786,7 @@ p.m_11 {
 
 .social li {
     display: inline-block;
-    width: 33.33%;
+    width: 25%;
     float: left;
 }
 
@@ -849,15 +851,7 @@ span.m_13{
 /*--contact--*/
 .contact{
 	width: 100%;
-	background: #E5C6AA; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #333, #E69B4C); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #333 , #E69B4C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-size: 100% 100%;
+	background: #333; /* fallback for old browsers */
 	padding: 10% 0;
 }
 .commentform label, .contactform_bottom label {
@@ -988,17 +982,18 @@ ul.footer-nav li a:hover{
 	color:#fff;
 }
 
-#button-send{
-  background: #333;
-  padding: 8px 35px;
-  color: #e69b4c;
-  border-color: #e69b4c;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  margin:auto;
+#id123-button-send{
+	background: #333;
+    padding: 8px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.6);
+box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.6);
 }
 
-#button-send:hover{
+#id123-button-send:hover{
 	background: #444;
     color: #999;
     text-transform: uppercase;
@@ -1007,19 +1002,29 @@ ul.footer-nav li a:hover{
 
 
 
-#button-send:before {
+#id123-button-send:before {
     content: "\e171";
     font-family: 'Glyphicons Halflings';
     margin-right: 15px;
 }
 
-#button-send:focus {
+#id123-button-send:focus {
     text-decoration: none;
     color: #999;
     outline: none;
 }
+
 .download {
+    background: #e69b4c;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    border-radius: 4px;
+    padding: 8px 20px;
     margin: auto;
+    width: 13.2em;
+    display: block;
+    color: #333;
     white-space: nowrap;
 }
 
@@ -1040,17 +1045,6 @@ ul.footer-nav li a:hover{
     outline: none;
 }
 
-.info{
-  background: #e69b4c;
-color: #333;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  border-radius: 4px;
-  padding: 8px 20px;
-    display: block;
-    width: 13.2em;
-}
-
 textarea {
     resize: none;
 }
@@ -1058,13 +1052,6 @@ textarea {
 textarea:focus {
     outline:none;
 }
-
-.container-left, .container-right{
-  width:50%;
-  margin:auto;
-  float:left;
-}
-
 
 .divonecolumn.col-md-4.col-lg-4.col-sm-12 {
     padding-left: 0;
@@ -1293,14 +1280,6 @@ pointer-events: none !important;
 
 }
 
-.container-left, .container-right{
-  width:100%;
-  margin:auto;
-  float:left;
-}
-.container-right{
-  margin-top:40px;
-}
 }
 
 @media (min-width:750px){
